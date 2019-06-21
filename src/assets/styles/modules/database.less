@@ -1,0 +1,29 @@
+.database-map-wrap {
+  .el-checkbox__input.is-checked .el-checkbox__inner,
+  .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background-color: #00877a;
+    border-color: #00877a;
+  }
+}
+
+.leaflet-popup-content {
+  p {
+    display: flex;
+    margin: 0 !important;
+    padding: 10px 0;
+    span {
+      display: inline-block;
+      padding: 0 5px;
+    }
+    .map-attr-field {
+      width: 100px;
+      vertical-align: top;
+    }
+    .map-attr-value {
+      flex: 1;
+    }
+  }
+  p:nth-child(odd){
+    background-color: #eee;
+  }
+}
