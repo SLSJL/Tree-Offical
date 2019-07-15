@@ -3,7 +3,7 @@
     <div class="database-sec1">
       <Navigation></Navigation>
       <DatabaseMap class="database-map"></DatabaseMap>
-      <GisIntro1 class="gis-intro-1" v-if="introShow" @click="introShow = !introShow"></GisIntro1>
+      <Introduction class="gis-intro-1" v-if="introShow" @click="introShow = !introShow"></Introduction>
       <GisIntroSwitch v-if="!introShow" class="gis-intro-switch" @click="introShow = !introShow"></GisIntroSwitch>
     </div>
     <WebFooter></WebFooter>
@@ -13,7 +13,7 @@
 <script>
 import Navigation from "./../../components/navigation/";
 import DatabaseMap from "./../../components/database/DatabaseMap";
-import GisIntro1 from "./gisIntro1";
+import Introduction from "./introduction";
 import GisIntroSwitch from "./../../components/database/introSwitch";
 
 import WebFooter from "./../../components/WebFooter/";
@@ -24,7 +24,7 @@ export default {
     Navigation,
     WebFooter,
     DatabaseMap,
-    GisIntro1,
+    Introduction,
     GisIntroSwitch
   },
   data() {

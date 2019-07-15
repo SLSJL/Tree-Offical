@@ -28,7 +28,8 @@ export default {
         "resource",
         "projectObjectives",
         "projectStage",
-        "disclaimer"
+        "disclaimer",
+        "policy"
       ]
     };
   },

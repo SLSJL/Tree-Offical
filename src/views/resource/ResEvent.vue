@@ -2,15 +2,15 @@
 <template>
   <div class="container res-events">
     <div class="caption">
-      <span>Event</span>
+      <span>{{$t("message.resource.event.caption")}}</span>
     </div>
     <div class="media-group">
       <div class="media-first">
         <h1>PolyU to apply smart sensing technology in urban tree management</h1>
         <p>
           The Hong Kong Polytechnic University (PolyU) today (14 June) kicked off the Jockey Club Smart City Tree Management Project, a large-scale pilot project in Hong Kong, with the support from academia, non-government organisations (NGOs) and the Government, to apply smart sensing technology (SST) and Geographic Information Systems (GIS) for monitoring tree stability to enhance timely appropriate mitigation measures for sustaining longer tree lives.
-          <br>...
-          <br>
+          <br />...
+          <br />
           <button @click="goToPDF">Detail >></button>
         </p>
       </div>
@@ -66,11 +66,12 @@ export default {
     width: 100%;
     height: 40px;
     border-bottom: 1px solid #ddd;
-    font-weight: 600;
     span {
       display: inline-block;
-      width: 120px;
+      padding: 0 15px;
+      min-width: 120px;
       height: 40px;
+
       text-align: center;
       line-height: 40px;
       background-color: #00877a;

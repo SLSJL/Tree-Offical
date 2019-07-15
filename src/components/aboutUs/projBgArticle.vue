@@ -5,28 +5,18 @@
       <!-- 內容 -->
       <div class="location-lable-gp">
         <el-breadcrumb separator-class="el-icon-arrow-right">
-          <el-breadcrumb-item>About Us</el-breadcrumb-item>
+          <el-breadcrumb-item>{{$t("message.aboutus.background.breadcrumb.item1")}}</el-breadcrumb-item>
           <el-breadcrumb-item>
-            <b>Background</b>
+            <b>{{$t("message.aboutus.background.breadcrumb.item2")}}</b>
           </el-breadcrumb-item>
         </el-breadcrumb>
       </div>
 
       <div class="article-content">
-        <p>Commenced in February 2018, the 3-year pilot Project “Jockey Club Smart City Tree Management Project” is supported by The Hong Kong Jockey Club Charities Trust with a funding of $32.28 million.</p>
-        <p>Aiming at sustaining a longer tree life by enhancing the efficiency of tree management, it is a large-scale pilot project on trees in the urban area that uses a quantifiable method for identifying trees with potential needs for follow-up actions.</p>
+        <p>{{$t("message.aboutus.background.text.p1")}}</p>
+        <p>{{$t("message.aboutus.background.text.p2")}}</p>
       </div>
     </div>
-    <!-- 文章目錄 -->
-    <!-- <div class="article-nav">
-      <h4>
-        <img :src="require('./../../assets/images/tree/tree.icon.dark.png')" alt> CONTENT
-      </h4>
-      <ul>
-        <li class="active">Objectives</li>
-        <li>Project Stage</li>
-      </ul>
-    </div>-->
   </div>
 </template>
 <script>

@@ -2,35 +2,28 @@
   <div class="container aboutus-project-team">
     <div class="location-lable-gp">
       <el-breadcrumb separator-class="el-icon-arrow-right">
-        <el-breadcrumb-item>About Us</el-breadcrumb-item>
+        <el-breadcrumb-item>{{$t("message.aboutus.team.breadcrumb.item1")}}</el-breadcrumb-item>
         <el-breadcrumb-item>
-          <b>Project Team</b>
+          <b>{{$t("message.aboutus.team.breadcrumb.item2")}}</b>
         </el-breadcrumb-item>
       </el-breadcrumb>
     </div>
-    <p>Led by The Hong Kong Polytechnic University, the collaborative partners of the project team are The University of Hong Kong, The Hong Kong University of Science and Technology, and Friends of the Earth (Hong Kong).</p>
+    <p>{{$t("message.aboutus.team.text.p1")}}</p>
 
     <div class="partner-group">
-      <!-- <a
-        href="https://charities.hkjc.com/charities/chinese/charities-trust/index.aspx"
-        target="blank"
-      >
-        <img :src="require('./../../assets/images/home/p6_1.png')" alt>
-      </a>-->
-
       <a href="https://www.polyu.edu.hk/web/en/home/index.html" target="blank">
-        <img :src="require('./../../assets/images/home/p6_2.png')" alt>
+        <img :src="require('./../../assets/images/home/p6_2.png')" alt />
       </a>
       <a href="https://www.ust.hk/" target="blank">
-        <img :src="require('./../../assets/images/home/p6_3.png')" alt>
+        <img :src="require('./../../assets/images/home/p6_3.png')" alt />
       </a>
 
       <a href="https://www.hku.hk/" target="blank">
-        <img :src="require('./../../assets/images/home/p6_4.png')" alt>
+        <img :src="require('./../../assets/images/home/p6_4.png')" alt />
       </a>
 
       <a href="https://www.foe.org.hk/default.aspx" target="blank">
-        <img :src="require('./../../assets/images/home/p6_5.png')" alt>
+        <img :src="require('./../../assets/images/home/p6_5.png')" alt />
       </a>
     </div>
   </div>
@@ -56,6 +49,7 @@ export default {
     background-color: #f5f5f5;
     box-sizing: border-box;
   }
+
   p {
     margin: 0;
     padding: 15px 0;
@@ -85,6 +79,8 @@ export default {
     overflow: auto;
     width: 100%;
     padding: 0 3rem;
+    padding-top: 1.5rem;
+
     box-sizing: border-box;
 
     p {

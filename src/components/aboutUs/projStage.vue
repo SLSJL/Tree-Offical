@@ -5,28 +5,20 @@
       <!-- 內容 -->
       <div class="location-lable-gp">
         <el-breadcrumb separator-class="el-icon-arrow-right">
-          <el-breadcrumb-item>About Us</el-breadcrumb-item>
+          <el-breadcrumb-item>{{$t("message.aboutus.stage.breadcrumb.item1")}}</el-breadcrumb-item>
           <el-breadcrumb-item>
-            <b>Project Stage</b>
+            <b>{{$t("message.aboutus.stage.breadcrumb.item2")}}</b>
           </el-breadcrumb-item>
         </el-breadcrumb>
       </div>
 
       <div class="article-content">
-        <p>With tailor-made sensors installed on the lower trunk of approximately 400 selected urban trees in two pilot sites: Kowloon East and Wan Chai, aiming to monitor their tilting angles over time using SST. For Phase 2, around 8,000 trees will be selected in nine of the urban districts, including Central & Western, Southern, Eastern, Wan Chai, at Hong Kong Island and Kowloon City, Kwun Tong, Sham Shui Po, Wong Tai Sin and Yau Tsim Mong at Kowloon.</p>
-        <img :src="projectStage" alt="porject stage">
+        <p>{{$t("message.aboutus.stage.text.p1")}}</p>
+        <p>{{$t("message.aboutus.stage.text.p2")}}</p>
+        <p>{{$t("message.aboutus.stage.text.p3")}}</p>
+        <img :src="projectStage" alt="porject stage" />
       </div>
     </div>
-    <!-- 文章目錄 -->
-    <!-- <div class="article-nav">
-      <h4>
-        <img :src="require('./../../assets/images/tree/tree.icon.dark.png')" alt> CONTENT
-      </h4>
-      <ul>
-        <li class="active">Objectives</li>
-        <li>Project Stage</li>
-      </ul>
-    </div>-->
   </div>
 </template>
 <script>

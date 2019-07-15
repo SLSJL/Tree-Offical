@@ -36,17 +36,15 @@ export default {
 <style lang="less" scoped>
 .knowledge-card {
   display: inline-block;
-  flex-direction: column;
 
-  margin: 10px;
   padding: 15px 30px;
-  border-top: 2px solid #00a091;
-  width: 88%;
+  width: 98%;
+  border-top: 4px solid #00a091;
 
-  vertical-align: top;
-  // height: 320px;
   background-color: #fff;
   transition: box-shadow 0.6s;
+  box-shadow: 5px 5px 50px 2px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
   cursor: pointer;
 
   h2 {
@@ -64,15 +62,16 @@ export default {
     font-size: 14px;
     line-height: 24px;
     color: #606060;
-    text-align: left; //css英文语句的两端对齐：
+    text-align: left;
   }
 }
 .knowledge-card:hover {
-  box-shadow: 5px 5px 50px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 5px 5px 50px 2px rgba(0, 0, 0, 0.25);
 }
 
 @media only screen and (min-width: 48em) and (max-width: 75em) {
   .knowledge-card {
+    margin-bottom: 15px;
     padding: 15px;
 
     h2 {
@@ -89,6 +88,8 @@ export default {
 @media only screen and (max-width: 48em) {
   .knowledge-card {
     margin: 0;
+    margin-bottom: 15px;
+
     padding: 15px;
     box-sizing: border-box;
     h2 {

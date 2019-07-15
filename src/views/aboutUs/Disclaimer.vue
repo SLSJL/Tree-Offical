@@ -3,17 +3,13 @@
   <div class="container aboutus-disclaimer">
     <div class="location-lable-gp">
       <el-breadcrumb separator-class="el-icon-arrow-right">
-        <el-breadcrumb-item>About Us</el-breadcrumb-item>
+        <el-breadcrumb-item>{{$t("message.aboutus.disclaimer.breadcrumb.item1")}}</el-breadcrumb-item>
         <el-breadcrumb-item>
-          <b>Disclaimer</b>
+          <b>{{$t("message.aboutus.disclaimer.breadcrumb.item2")}}</b>
         </el-breadcrumb-item>
       </el-breadcrumb>
     </div>
-
-    <P>
-      This message (including any attachments) contains confidential information intended for a specific individual and purpose. If you are not the intended recipient, you should delete this message and notify the sender and The Hong Kong Polytechnic University (the University) immediately. Any disclosure, copying, or distribution of this message, or the taking of any action based on it, is strictly prohibited and may be unlawful.
-      The University specifically denies any responsibility for the accuracy or quality of information obtained through University E-mail Facilities. Any views and opinions expressed are only those of the author(s) and do not necessarily represent those of the University and the University accepts no liability whatsoever for any losses or damages incurred or caused to any party as a result of the use of such information.
-    </P>
+    <P>{{$t("message.aboutus.disclaimer.text.p1")}}</P>
   </div>
 </template>
 
@@ -71,8 +67,7 @@ export default {
 }
 
 @media only screen and (max-width: 48em) {
-  .aboutus-disclaimer 
-    {
+  .aboutus-disclaimer {
     overflow: auto;
     width: 100%;
     padding: 0 3rem;

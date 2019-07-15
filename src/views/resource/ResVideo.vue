@@ -2,26 +2,26 @@
 <template>
   <div class="container media-coverage">
     <div class="caption">
-      <span>Video</span>
+      <span>{{$t("message.resource.video.caption")}}</span>
     </div>
     <div class="video-group">
       <div class="video-item">
         <h1>Opening Ceremony of Smart Government Innovation Lab</h1>
-        <video :src="$utils.tool.getFileUrl() + 'video/v-1-190601.mp4'" controls loop autoplay>
+        <video :src="$utils.tool.getFileUrl() + 'video/v-1-190601.mp4'" controls loop>
           你的浏览器不支持
           <code>video</code> 标签.
         </video>
       </div>
       <div class="video-item">
         <h1>智慧政府創新實驗室開幕 樹木辦為8000樹裝感應器 可發傾斜信號</h1>
-        <video :src="$utils.tool.getFileUrl() + 'video/v-2-190531_HK01.mp4'" controls loop autoplay>
+        <video :src="$utils.tool.getFileUrl() + 'video/v-2-190531_HK01.mp4'" controls loop>
           你的浏览器不支持
           <code>video</code> 标签.
         </video>
       </div>
       <div class="video-item">
-        <h1>智慧政府創新實驗室加強政府與本地業界聯繫  </h1>
-        <video :src="$utils.tool.getFileUrl() + 'video/v-3-190531.mp4'" controls loop autoplay>
+        <h1>智慧政府創新實驗室加強政府與本地業界聯繫</h1>
+        <video :src="$utils.tool.getFileUrl() + 'video/v-3-190531.mp4'" controls loop>
           你的浏览器不支持
           <code>video</code> 标签.
         </video>
@@ -37,8 +37,8 @@ export default {
 </script>
 <style lang="less" scoped>
 .media-coverage {
-  margin: 30px auto;
   display: flex;
+  margin: 30px auto;
   height: 420px;
   flex-direction: column;
   text-align: left;
@@ -47,14 +47,16 @@ export default {
     width: 100%;
     height: 40px;
     border-bottom: 1px solid #ddd;
-    font-weight: 600;
     span {
       display: inline-block;
-      width: 120px;
+      padding: 0 15px;
+      min-width: 120px;
       height: 40px;
+
       text-align: center;
       line-height: 40px;
       background-color: #00877a;
+
       font-size: 1.6rem;
       color: #fff;
     }
@@ -134,13 +136,14 @@ export default {
     width: 100%;
     padding: 0 1.5rem;
     box-sizing: border-box;
-    height: auto;
+    height: 102rem !important;
 
     .video-group {
-      flex-direction: column;
-
+      display: block;
+      height: 102rem !important;
       .video-item {
         width: 100%;
+        height: 320px;
       }
       .video-item:nth-child(2) {
         border-top: 1px solid #ddd;

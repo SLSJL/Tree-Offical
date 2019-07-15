@@ -1,10 +1,9 @@
-import KnowledgeData from "./../config/knowledge";
 /**
  * getTreCheckedKeys
  * desc 获取树默认选中的Keys
  */
 let DefaulActivetKeys = [];
-let getTreeCheckedKeys = dataTree => {
+const getTreeCheckedKeys = dataTree => {
   dataTree.map(el => {
     DefaulActivetKeys.push(el.key);
     if (!el.children) return;
@@ -13,11 +12,8 @@ let getTreeCheckedKeys = dataTree => {
   return DefaulActivetKeys;
 };
 
-let getInfoCard = id => {
-  return KnowledgeData[id];
-};
 
-let getFileUrl = () => {
+const getFileUrl = () => {
   return process.env.VUE_APP_BASE_FILE;
 };
-export default { getTreeCheckedKeys, getInfoCard, getFileUrl };
+export default { getTreeCheckedKeys, getFileUrl };

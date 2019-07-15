@@ -3,42 +3,42 @@
   <div class="container collabratie-partners-article">
     <div class="location-lable-gp">
       <el-breadcrumb separator-class="el-icon-arrow-right">
-        <el-breadcrumb-item>About Us</el-breadcrumb-item>
+        <el-breadcrumb-item>{{$t("message.aboutus.partner.breadcrumb.item1")}}</el-breadcrumb-item>
         <el-breadcrumb-item>
-          <b>Collaborating Partners</b>
+          <b>{{$t("message.aboutus.partner.breadcrumb.item2")}}</b>
         </el-breadcrumb-item>
       </el-breadcrumb>
     </div>
-    <p>A special acknowledgement to the support of relevant Government departments allowing the trees to be under purview for monitoring, they are:</p>
+    <p>{{$t("message.aboutus.partner.text.p1")}}</p>
 
     <div class="partner-group">
       <p>
         <a href="https://www.greening.gov.hk/en/home/index.html" target="blank">
-          <img :src="require('./../../assets/images/aboutUs/DevelopmentBureau.png')" alt>
+          <img :src="require('./../../assets/images/aboutUs/DevelopmentBureau.png')" alt />
         </a>
 
         <a href="https://www.greening.gov.hk/en/home/index.html" target="blank">
-          <img :src="require('./../../assets/images/aboutUs/GLTMS.png')" alt>
+          <img :src="require('./../../assets/images/aboutUs/GLTMS.png')" alt />
         </a>
 
         <a href="https://www.ekeo.gov.hk/en/home/index.html" target="blank">
-          <img :src="require('./../../assets/images/aboutUs/kowloon.gif')" alt>
+          <img :src="require('./../../assets/images/aboutUs/kowloon.gif')" alt />
         </a>
       </p>
 
       <a href="https://www.hyd.gov.hk/en/home/index.html" target="blank">
-        <img :src="require('./../../assets/images/aboutUs/Highways.png')" alt>
+        <img :src="require('./../../assets/images/aboutUs/Highways.png')" alt />
       </a>
 
       <a href="https://www.archsd.gov.hk/en/home.aspx" target="blank">
-        <img :src="require('./../../assets/images/aboutUs/Architectural.png')" alt>
+        <img :src="require('./../../assets/images/aboutUs/Architectural.png')" alt />
       </a>
 
       <a class="leisure" href="https://www.foe.org.hk/default.aspx" target="blank">
-        <img :src="require('./../../assets/images/aboutUs/leisure.png')" alt>
+        <img :src="require('./../../assets/images/aboutUs/leisure.png')" alt />
       </a>
       <a href="https://www.afcd.gov.hk/tc_chi/index.html" target="blank">
-        <img :src="require('./../../assets/images/aboutUs/Agriculture.png')" alt>
+        <img :src="require('./../../assets/images/aboutUs/Agriculture.png')" alt />
       </a>
     </div>
   </div>
@@ -112,6 +112,7 @@ export default {
     overflow: auto;
     width: 100%;
     padding: 0 3rem;
+    padding-top: 1.5rem;
     box-sizing: border-box;
 
     p {

@@ -5,18 +5,18 @@
       <div class="content">
         <section class="abstract">
           <!-- 内容 -->
-          <h1>A LARGE-SCALE PILOT PROJECT IDENTIFYING TREES IN THE URBAN AREA WITH POTENTIAL NEEDS FOR FOLLOW-UP ACTIONS</h1>
+          <h1 v-html="$t('message.home.sec1')"></h1>
         </section>
         <section class="modules-shortcut">
           <ul class="shortcut-wrap">
             <li>
-              <img :src="require('./../../assets/images/home/home-thumb-1@2x.png')" alt>
+              <img :src="require('./../../assets/images/home/home-thumb-1@2x.png')" alt />
             </li>
             <li>
-              <img :src="require('./../../assets/images/home/home-thumb-2@2x.png')" alt>
+              <img :src="require('./../../assets/images/home/home-thumb-2@2x.png')" alt />
             </li>
             <li>
-              <img :src="require('./../../assets/images/home/home-thumb-3@2x.png')" alt>
+              <img :src="require('./../../assets/images/home/home-thumb-3@2x.png')" alt />
             </li>
           </ul>
         </section>
@@ -73,7 +73,6 @@ export default {
         height: 100%;
 
         h1 {
-          font-family: "Roboto-Condensed";
           padding: 0 8rem;
           padding-bottom: 30rem;
           text-align: left;

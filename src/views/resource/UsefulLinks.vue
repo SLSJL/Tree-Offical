@@ -2,7 +2,7 @@
 <template>
   <div class="container media-useful-links">
     <div class="caption">
-      <span>Useful Links</span>
+      <span>{{$t("message.resource.links.caption")}}</span>
     </div>
 
     <div class="partner-group">
@@ -10,56 +10,57 @@
         href="https://charities.hkjc.com/charities/chinese/charities-trust/index.aspx"
         target="blank"
       >
-        <img :src="require('./../../assets/images/home/p6_1.png')" alt>
+        <img :src="require('./../../assets/images/home/p6_1.png')" alt />
       </a>
 
       <a href="https://www.polyu.edu.hk/web/en/home/index.html" target="blank">
-        <img :src="require('./../../assets/images/home/p6_2.png')" alt>
+        <img :src="require('./../../assets/images/home/p6_2.png')" alt />
       </a>
+      
       <a href="https://www.ust.hk/" target="blank">
-        <img :src="require('./../../assets/images/home/p6_3.png')" alt>
+        <img :src="require('./../../assets/images/home/p6_3.png')" alt />
       </a>
 
       <a href="https://www.hku.hk/" target="blank">
-        <img :src="require('./../../assets/images/home/p6_4.png')" alt>
+        <img :src="require('./../../assets/images/home/p6_4.png')" alt />
       </a>
 
       <a href="https://www.foe.org.hk/default.aspx" target="blank">
-        <img :src="require('./../../assets/images/home/p6_5.png')" alt>
+        <img :src="require('./../../assets/images/home/p6_5.png')" alt />
       </a>
 
       <a href="https://www.greening.gov.hk/en/home/index.html" target="blank">
-        <img :src="require('./../../assets/images/aboutUs/DevelopmentBureau.png')" alt>
+        <img :src="require('./../../assets/images/aboutUs/DevelopmentBureau.png')" alt />
       </a>
 
       <a href="https://www.greening.gov.hk/en/home/index.html" target="blank">
-        <img :src="require('./../../assets/images/aboutUs/GLTMS.png')" alt>
+        <img :src="require('./../../assets/images/aboutUs/GLTMS.png')" alt />
       </a>
 
       <a href="https://www.ekeo.gov.hk/en/home/index.html" target="blank">
-        <img :src="require('./../../assets/images/aboutUs/kowloon.gif')" alt>
+        <img :src="require('./../../assets/images/aboutUs/kowloon.gif')" alt />
       </a>
 
       <a href="https://www.hyd.gov.hk/en/home/index.html" target="blank">
-        <img :src="require('./../../assets/images/aboutUs/Highways.png')" alt>
+        <img :src="require('./../../assets/images/aboutUs/Highways.png')" alt />
       </a>
 
       <a href="https://www.archsd.gov.hk/en/home.aspx" target="blank">
-        <img :src="require('./../../assets/images/aboutUs/Architectural.png')" alt>
+        <img :src="require('./../../assets/images/aboutUs/Architectural.png')" alt />
       </a>
 
       <a href="https://www.foe.org.hk/default.aspx" target="blank">
-        <img :src="require('./../../assets/images/aboutUs/leisure.png')" alt>
+        <img :src="require('./../../assets/images/aboutUs/leisure.png')" alt />
       </a>
       <a href="https://www.afcd.gov.hk/tc_chi/index.html" target="blank">
-        <img :src="require('./../../assets/images/aboutUs/Agriculture.png')" alt>
+        <img :src="require('./../../assets/images/aboutUs/Agriculture.png')" alt />
       </a>
     </div>
   </div>
 </template>
 <script>
 export default {
-  components: {}
+  name: "usefulLink"
 };
 </script>
 <style lang="less" scoped>
@@ -72,15 +73,16 @@ export default {
     width: 100%;
     height: 40px;
     border-bottom: 1px solid #ddd;
-    font-weight: 600;
+
     span {
       display: inline-block;
-      width: 120px;
+      padding: 0 15px;
+      min-width: 120px;
       height: 40px;
+
       text-align: center;
       line-height: 40px;
       background-color: #00877a;
-      //   border-radius: 16px 16px 0 0;
       color: #fff;
       font-size: 1.6rem;
     }

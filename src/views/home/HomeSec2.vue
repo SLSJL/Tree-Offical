@@ -1,16 +1,10 @@
 <template>
   <div class="container-fluid home-section-2">
     <div class="home-p1-image">
-      <img :src="require('./../../assets/images/home/ourtrees@2x.png')" @click="navigate" alt>
+      <img :src="require('./../../assets/images/home/ourtrees@2x.png')" @click="navigate" alt />
     </div>
     <div class="home-p1-text">
-      <h1>
-        Urban trees are considered
-        as an
-        <br>
-        <b>indispensable element</b>
-        of green infrastructure in our city
-      </h1>
+      <h1 v-html="$t('message.home.sec2')"></h1>
     </div>
   </div>
 </template>
@@ -43,6 +37,7 @@ export default {
       cursor: pointer;
     }
   }
+
   .home-p1-text {
     flex: 1;
     height: 100%;
@@ -52,7 +47,6 @@ export default {
     align-items: center;
 
     h1 {
-      font-family: "Roboto-Condensed";
       padding-left: 6rem;
       padding-right: 6rem;
 
@@ -60,11 +54,6 @@ export default {
       font-weight: 100;
       text-align: right;
       line-height: 8rem;
-
-      b {
-        font-size: 6rem;
-        font-weight: bold;
-      }
     }
   }
 }
@@ -83,7 +72,6 @@ export default {
 
     .home-p1-text {
       h1 {
-        font-family: "Roboto-Condensed";
         padding-left: 3rem;
         padding-right: 3rem;
         font-size: 2.8em;
@@ -116,7 +104,6 @@ export default {
 
     .home-p1-text {
       h1 {
-        font-family: "Roboto-Condensed";
         padding: 5rem 3rem;
         padding: 3rem 2.5rem;
 
@@ -125,10 +112,6 @@ export default {
         font-size: 3em;
         line-height: 4rem;
         text-align: center;
-        b {
-          font-size: 3.2rem;
-          font-weight: bold;
-        }
       }
     }
   }

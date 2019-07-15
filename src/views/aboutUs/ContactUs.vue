@@ -26,23 +26,18 @@ export default {
     this.$utils.map.addEsriBasemap("Topographic");
     // this.$utils.map.addEsriBasemap("ImageryLabels");
 
-    this.polyU = await this.$utils.map.addMaker(
-      this.map,
-      [22.306, 114.17932],
-      {
-        iconUrl: require("./../../assets/images/aboutUs/institute.png"),
-        iconSize: [32, 32]
-      }
-    );
+    this.polyU = await this.$utils.map.addMaker(this.map, [22.306, 114.17932], {
+      iconUrl: require("./../../assets/images/aboutUs/institute.png"),
+      iconSize: [32, 32]
+    });
     let lsgiImg = require("./../../assets/images/aboutUs/logo-lsgi35.png");
     let rslImg = require("./../../assets/images/aboutUs/rsl.png");
-
     this.polyU
       .bindPopup(
         `<img class="lsgi-logo" src="${lsgiImg}">
         <img class="rsl-logo" src="${rslImg}">
-        <p class="m-text"> ZB213, The Hong Kong Polytechnic University, Kowloon, Hong Kong</p>
-         <p class="m-text"> Email: jcsmarttree@gmail.com</p>`,
+        <p class="m-text">${this.$t("message.aboutus.contactus.address")}</p>
+         <p class="m-text"> Email &nbsp; <b> jcsmarttree@gmail.com</b></p>`,
         {
           maxWidth: 300
         }

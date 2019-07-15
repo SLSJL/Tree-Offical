@@ -109,6 +109,12 @@ export default new Router({
           name: "disclaimer",
           component: () =>
             import(/* webpackChunkName: "tree" */ "@/views/aboutUs/Disclaimer")
+        },
+        {
+          path: "/aboutus/policy",
+          name: "policy",
+          component: () =>
+            import(/* webpackChunkName: "tree" */ "@/views/aboutUs/Policy")
         }
       ]
     },

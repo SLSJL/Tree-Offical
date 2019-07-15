@@ -1,22 +1,26 @@
 <template>
   <div :class="['nav-menu-group', {isSolid: $route.params.isSolid}]">
+    <!-- web menu -->
     <ul>
       <router-link
         :class="[{active: activeIndex === idx}]"
         :to="item.route"
-        v-for="(item, idx) in menuList"
+        v-for="(item, idx) in $t('message.nav')"
         :key="idx"
         tag="li"
         @click.native="SET_ACTIVEINDEX(idx)"
       >{{item.text}}</router-link>
     </ul>
+    <!-- language switch -->
+    <Lang></Lang>
+    <!-- moblie menu -->
     <el-dropdown size="medium" class="menu-tab" @command="navigate">
       <span class="el-dropdown-link">
         <i class="el-icon-s-unfold"></i>
       </span>
       <el-dropdown-menu class="menu-tab-list" slot="dropdown">
         <el-dropdown-item
-          v-for="( item, idx) in menuList"
+          v-for="( item, idx) in $t('message.nav')"
           :key="idx"
           :command="item.route"
         >{{item.text}}</el-dropdown-item>
@@ -25,39 +29,11 @@
   </div>
 </template>
 <script>
+import Lang from "./Lang";
 import { mapState, mapMutations } from "vuex";
 export default {
   name: "NavMenu",
-  data() {
-    return {
-      menuList: [
-        {
-          text: "Home",
-          route: "/"
-        },
-        {
-          text: "Our Trees",
-          route: "/tree"
-        },
-        {
-          text: "Our Sensor",
-          route: "/sensor"
-        },
-        {
-          text: "Database",
-          route: "/database"
-        },
-        {
-          text: "Resource",
-          route: "/resource"
-        },
-        {
-          text: "About Us",
-          route: "/aboutus"
-        }
-      ]
-    };
-  },
+  components: { Lang },
   methods: {
     ...mapMutations("navigation", ["SET_ACTIVEINDEX"]),
     navigate(route, idx) {
@@ -75,14 +51,17 @@ export default {
 .nav-menu-group {
   display: flex;
   align-items: center;
-  height: 100%;
+  justify-content: center;
 
   ul {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     margin: 0;
     padding: 0;
     li {
+      font-family: "Roboto-Regular", "NotoSansTC-Regular",
+        "NotoSansHans-Regular", "Avenir", Helvetica, Arial, sans-serif;
+
       list-style: none;
       padding: 5px;
       margin: 0 8px;
@@ -112,9 +91,7 @@ export default {
     ul {
       display: none;
     }
-
     .menu-tab {
-      margin-left: 1.5rem !important;
       margin-right: 1.5rem !important;
       height: 3rem !important;
 

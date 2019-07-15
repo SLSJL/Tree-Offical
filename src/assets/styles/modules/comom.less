@@ -19,6 +19,18 @@ ul {
 .kc-text {
   margin: 10px 0;
   padding: 0 15px;
+  color: #303030;
+}
+.kc-img {
+  padding: 30px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
+  img {
+    height: 140px;
+  }
 }
 .kc-sub-title {
   margin: 0;
@@ -36,4 +48,22 @@ ul {
 
 .ctm-leaflet-clickable {
   cursor: pointer !important;
+}
+
+@media only screen and (min-width: 48em) and (max-width: 75em) {
+  .kc-img {
+    img {
+      width: 60%;
+      height: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 48em) {
+  .kc-img {
+    img {
+      width: 60%;
+      height: auto;
+    }
+  }
 }

@@ -1,8 +1,8 @@
 
 <template>
-  <div class="container media-coverage">
+  <div class="container media-audio">
     <div class="caption">
-      <span>Audio</span>
+      <span>{{$t("message.resource.audio.caption")}}</span>
     </div>
     <div class="media-group">
       <MediaList :dataset="list1Data"></MediaList>
@@ -30,22 +30,22 @@ export default {
 };
 </script>
 <style lang="less" scoped>
-.media-coverage {
+.media-audio {
   margin: 30px auto;
   display: flex;
   flex-direction: column;
-
   text-align: left;
 
   .caption {
     width: 100%;
     height: 40px;
     border-bottom: 1px solid #ddd;
-    font-weight: 600;
     span {
       display: inline-block;
-      width: 120px;
+      padding: 0 15px;
+      min-width: 120px;
       height: 40px;
+      
       text-align: center;
       line-height: 40px;
       background-color: #00877a;
@@ -71,7 +71,7 @@ export default {
 }
 
 @media only screen and (min-width: 48em) and (max-width: 75em) {
-  .media-coverage {
+  .media-audio {
     width: 100%;
     padding: 0 6rem;
     box-sizing: border-box;
@@ -79,7 +79,7 @@ export default {
 }
 
 @media only screen and (max-width: 48em) {
-  .media-coverage {
+  .media-audio {
     width: 100%;
     padding: 0 1.5rem;
     box-sizing: border-box;

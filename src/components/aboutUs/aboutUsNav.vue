@@ -3,11 +3,11 @@
     <ul>
       <router-link
         :class="[{active: activeIndex === idx}]"
-        :to="item.route"
-        v-for="(item, idx) in treeNavs"
         :key="idx"
+        v-for="(item, idx) in $t('message.aboutus.nav')"
         tag="li"
         @click.native="SET_ACTIVEINDEX(idx)"
+        :to="item.route"
       >{{item.text}}</router-link>
     </ul>
   </div>
@@ -16,41 +16,7 @@
 import { mapState, mapMutations } from "vuex";
 
 export default {
-  name: "TreeNav",
-  data() {
-    return {
-      treeNavs: [
-        {
-          text: "Background",
-          route: "/aboutus/projectBackground"
-        },
-        {
-          text: "Objectives",
-          route: "/aboutus/projectObjectives"
-        },
-        {
-          text: "Project Stage",
-          route: "/aboutus/projectStage"
-        },
-        {
-          text: "Project Team",
-          route: "/aboutus/projectTeam"
-        },
-        {
-          text: "Collaborating Partners",
-          route: "/aboutus/collaboratingPartner"
-        },
-        {
-          text: "Contact Us",
-          route: "/aboutus/contactUs"
-        },
-        {
-          text: "Disclaimer",
-          route: "/aboutus/disclaimer"
-        }
-      ]
-    };
-  },
+  name: "aboutUsNav",
   methods: {
     ...mapMutations("tree", ["SET_ACTIVEINDEX"])
   },

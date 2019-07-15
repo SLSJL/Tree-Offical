@@ -26,7 +26,7 @@ export default {
 @media only screen and (max-width: 48em) {
   .project-stage {
     width: 100%;
-    padding: 0 ;
+    padding: 0;
     box-sizing: border-box;
   }
 }

@@ -18,7 +18,7 @@ export default {
 @media only screen and (min-width: 48em) and (max-width: 75em) {
   .project-objectives {
     width: 100%;
-    padding: 0 15px;
+    padding: 0 30px;
   }
 }
 

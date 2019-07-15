@@ -1,21 +1,10 @@
 <template>
   <div class="container-fluid home-section-4">
     <div class="home-p4-image">
-      <img
-        :src="require('./../../assets/images/home/gis@2x.png')"
-       @click="navigate"
-        alt
-      >
+      <img :src="require('./../../assets/images/home/gis@2x.png')" @click="navigate" alt />
     </div>
-
     <div class="home-p4-content">
-      <h1>
-        A
-        <b>GIS platform</b> to locate
-        <br>the trees
-        provided with sensor
-        <br>and tree information
-      </h1>
+      <h1 v-html="$t('message.home.sec4')"></h1>
     </div>
   </div>
 </template>
@@ -57,7 +46,6 @@ export default {
     align-items: center;
 
     h1 {
-      font-family: "Roboto-Condensed";
       width: 100%;
       padding-right: 6rem;
 
@@ -86,7 +74,6 @@ export default {
     }
     .home-p4-content {
       h1 {
-        font-family: "Roboto-Condensed";
         padding-left: 3rem;
         padding-right: 3rem;
         font-size: 2.8em;
@@ -111,7 +98,6 @@ export default {
       color: #303030;
 
       h1 {
-        font-family: "Roboto-Condensed";
         padding: 5rem 3rem;
 
         margin-bottom: 0;

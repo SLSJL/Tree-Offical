@@ -5,43 +5,33 @@
       <!-- 內容 -->
       <div class="location-lable-gp">
         <el-breadcrumb separator-class="el-icon-arrow-right">
-          <el-breadcrumb-item>About Us</el-breadcrumb-item>
+          <el-breadcrumb-item>{{$t("message.aboutus.objective.breadcrumb.item1")}}</el-breadcrumb-item>
           <el-breadcrumb-item>
-            <b>Project Objectives</b>
+            <b>{{$t("message.aboutus.objective.breadcrumb.item2")}}</b>
           </el-breadcrumb-item>
         </el-breadcrumb>
       </div>
 
       <div class="article-content">
-        <p>Through the collaboration of the cross- disciplinaries professions, including academia, green NGOs, and the government, our project is aiming to</p>
+        <p>{{$t("message.aboutus.objective.text.p1")}}</p>
         <ul>
-          <li>Developing a set of SST that can conduct monitoring on Hong Kong’s most vulnerable urban tree species</li>
-          <li>Building a database to monitor trees’ condition using GIS-platform</li>
-          <li>Providing analysis on threshold criteria of trees by considering bio-physical factors of trees and the environmental conditions in urban areas</li>
-          <li>Enhancing knowledge share of the students to deepen the understanding of our urban environmental assets and raise the public awareness on the environmental values of our urban forestry assets</li>
+          <li>{{$t("message.aboutus.objective.text.p2")}}</li>
+          <li>{{$t("message.aboutus.objective.text.p3")}}</li>
+          <li>{{$t("message.aboutus.objective.text.p4")}}</li>
+          <li v-if="language == 'en'">{{$t("message.aboutus.objective.text.p5")}}</li>
         </ul>
       </div>
     </div>
-    <!-- 文章目錄 -->
-    <!-- <div class="article-nav">
-      <h4>
-        <img :src="require('./../../assets/images/tree/tree.icon.dark.png')" alt> CONTENT
-      </h4>
-      <ul>
-        <li class="active">Objectives</li>
-        <li>Project Stage</li>
-      </ul>
-    </div>-->
   </div>
 </template>
 <script>
-export default {
-  name: "OurTreeMap",
+import { mapState } from "vuex";
 
-  data() {
-    return {};
-  },
-  async mounted() {}
+export default {
+  name: "projectObject",
+  computed: {
+    ...mapState("navigation", ["language"])
+  }
 };
 </script>
 <style lang="less" scoped>
@@ -153,8 +143,7 @@ export default {
 @media only screen and (max-width: 48em) {
   .project-objective-article {
     width: 100%;
-    padding: 0 3rem;
-    padding-top: 1.5rem;
+    padding: 1.5rem 3rem;
     box-sizing: border-box;
 
     .article-body {

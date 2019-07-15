@@ -1,12 +1,8 @@
 <template>
   <div class="container-fluid home-section-3">
     <div class="home-p3-content">
-      <h1>
-        The sensor measures the
-        <br>
-        <b>physical response</b>
-        of a tree
-        <br>to wind force
+      <h1 v-html="$t('message.home.sec3')">
+
       </h1>
     </div>
     <div class="home-p3-image">
@@ -46,7 +42,6 @@ export default {
     align-items: center;
 
     h1 {
-      font-family: "Roboto-Condensed";
       width: 100%;
       padding-left: 6rem;
       font-size: 5rem;
@@ -83,7 +78,6 @@ export default {
       align-items: center;
 
       h1 {
-        font-family: "Roboto-Condensed";
         padding-left: 3rem;
         padding-right: 3rem;
         font-size: 2.8em;

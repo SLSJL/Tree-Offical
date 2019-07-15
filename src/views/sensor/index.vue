@@ -4,23 +4,21 @@
       <Navigation class="sensor-nav"></Navigation>
       <div class="mask">
         <div class="introduction">
-          <h1>OUR SENSOR</h1>
-          <p>This application is an IoT device. The sensor device can measure tilting angles and send the signals to the gateway. This mechanism can provide an instant feedback to the server. Through the GIS platform, an individual tree with geographical location, tree attributes and its tilt angle can be identified on the screen of a computer located in the monitoring office. A massive scale of trees can be monitored at the same instant. This operation could facilitate the works of tree management team by providing fast and reliable additional information for assessing tree health.</p>
-          <p>We hope that the early notification of tree risk would eventually benefit to the public in this way to preserve trees in Hong Kong to the further extent.</p>
-          <!-- <el-button class="detail" type="text">details >></el-button> -->
-
+          <h1>{{$t("message.sensor.section1.caption")}}</h1>
+          <p>{{$t("message.sensor.section1.body.p1")}}</p>
+          <p>{{$t("message.sensor.section1.body.p2")}}</p>
           <ul>
             <li>
-              <img :src="require('./../../assets/images/sensor/sensor-closeup-1.png')" alt>
+              <img :src="require('./../../assets/images/sensor/sensor-closeup-1.png')" alt />
             </li>
             <li>
-              <img :src="require('./../../assets/images/sensor/sensor-closeup-2.png')" alt>
+              <img :src="require('./../../assets/images/sensor/sensor-closeup-2.png')" alt />
             </li>
             <li>
-              <img :src="require('./../../assets/images/sensor/sensor-closeup-3.png')" alt>
+              <img :src="require('./../../assets/images/sensor/sensor-closeup-3.png')" alt />
             </li>
             <li>
-              <img :src="require('./../../assets/images/sensor/sensor-closeup-4.png')" alt>
+              <img :src="require('./../../assets/images/sensor/sensor-closeup-4.png')" alt />
             </li>
           </ul>
         </div>
@@ -74,7 +72,7 @@ export default {
       width: 100%;
       height: 100%;
 
-      background-color: rgba(0, 0, 0, 0.35);
+      background-color: rgba(0, 0, 0, 0.15);
       z-index: 0;
 
       .introduction {
@@ -82,10 +80,16 @@ export default {
         margin-top: 160px;
         margin-left: 120px;
         width: 50%;
-
         text-align: left;
-
         color: white;
+        
+        h1{
+          font-size: 3.6rem;
+          letter-spacing: 2px;
+          font-family: "Roboto-Condensed", "Avenir", Helvetica, Arial, sans-serif;
+          text-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+        
+        }
 
         p {
           font-size: 16px;

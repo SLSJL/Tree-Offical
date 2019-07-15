@@ -2,7 +2,7 @@
 <template>
   <div class="container publication-coverage">
     <div class="caption">
-      <span>Publication</span>
+      <span>{{$t("message.resource.publication.caption")}}</span>
     </div>
     <div class="publication-group">
       <img
@@ -11,7 +11,7 @@
         v-for="(item,idx) in publications"
         :key="idx"
         @click="goToPDF(item.pdfPath)"
-      >
+      />
     </div>
   </div>
 </template>
@@ -53,15 +53,15 @@ export default {
     width: 100%;
     height: 40px;
     border-bottom: 1px solid #ddd;
-    font-weight: 600;
     span {
       display: inline-block;
-      width: 120px;
+      padding: 0 15px;
+      min-width: 120px;
       height: 40px;
+
       text-align: center;
       line-height: 40px;
       background-color: #00877a;
-      //   border-radius: 16px 16px 0 0;
       color: #fff;
       font-size: 1.6rem;
     }
@@ -92,7 +92,7 @@ export default {
 @media only screen and (min-width: 48em) and (max-width: 75em) {
   .publication-coverage {
     width: 100%;
-    padding: 0 3rem;
+    padding: 0 6rem;
     box-sizing: border-box;
   }
 }

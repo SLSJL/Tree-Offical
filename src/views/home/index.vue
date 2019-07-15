@@ -36,5 +36,8 @@ export default {
   top: 0;
   width: 100%;
   height: 100%;
+
+  font-family: "Roboto-Regular", "NotoSansTC-Bold", "NotoSansHans-Bold",
+    "Avenir", Helvetica, Arial, sans-serif;
 }
 </style>

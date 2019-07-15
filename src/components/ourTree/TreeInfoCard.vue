@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid info-card" :style="{ backgroundColor: bgClr}" @click="openContent">
-    <img :src="icon" alt>
+    <img :src="icon" alt />
     <h5 :style="{color:fclr}">{{text}}</h5>
   </div>
 </template>
@@ -26,18 +26,21 @@ export default {
 </script>
 <style lang="less" scoped>
 .info-card {
-  // margin: 0 5px;
   flex-grow: 1;
-  // min-width: 180px;
-  height: 240px;
-  background-position: center;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: 2px solid rgba(0, 0, 0, 0);
+
+  height: 240px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
   transition: all 0.6s;
+
+  box-sizing: border-box;
+
   cursor: pointer;
 
   img {
@@ -53,12 +56,12 @@ export default {
 
 .info-card.active,
 .info-card:hover {
-  border-bottom: 2px solid rgba(0, 135, 122, 0.5);
+  border-bottom: 4px solid rgba(0, 135, 122, 1);
 }
 
 @media only screen and (min-width: 48em) and (max-width: 75em) {
   .info-card {
-    height: 180px;
+    height: 200px;
 
     img {
       margin-bottom: 0;
@@ -76,7 +79,7 @@ export default {
 @media only screen and (max-width: 48em) {
   .info-card {
     float: left;
-    width: 49.9%;
+    width: 50;
     height: 180px;
 
     img {

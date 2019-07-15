@@ -1,27 +1,19 @@
 
 <template>
   <div class="container our-snesor-article">
-    <!-- 文章內容 -->
     <div class="article-body">
-      <!-- 內容 -->
       <div class="article-content">
-        <!-- <h1>OUR SENSOR</h1> -->
-        <p>We base on Smart Sensing Technology (SST) to develop an integrated system for monitoring tree tilting angles. With tailor-made sensors installed on the lower trunk of 400 selected urban trees in two areas with high traffic and pedestrian flow, it monitors tree tilting angles over time. Trees of 9 vulnerable species at risk of tree failure are selected for monitoring, such as Bauhinia variegata, Delonix regia, Senna siamea, Aleurites moluccana, etc.</p>
-        <p>Taking various environmental factors into consideration, a threshold value will be determined to measure the root-plate movement. If a sensor detects that the tilting angle of a tree exceeds the threshold, the System will give an alert to conduct a visit to the tree and/or to conduct detailed investigations. The System will be further implemented on over 8,000 trees across the entire city in Hong Kong.</p>
-        <p>The sensor measures the mechanical response of a tree to wind force, recording the tilting values at near ground level and provides an insightful strength of root anchorage. Monitoring root plate rotation by means of the sensor on a regular basis would enable an early warning system in tree management to reduce the risk of damage caused by root failure.</p>
-        <img :src="require('./../../assets/images/sensor/Sensor-On-Tree.jpg')" alt>
+        <p>{{$t("message.sensor.section2.p1")}}</p>
+        <p>{{$t("message.sensor.section2.p2")}}</p>
+        <p>{{$t("message.sensor.section2.p3")}}</p>
+        <img :src="require('./../../assets/images/sensor/Sensor-On-Tree.jpg')" alt />
       </div>
     </div>
   </div>
 </template>
 <script>
 export default {
-  name: "OurTreeMap",
-
-  data() {
-    return {};
-  },
-  async mounted() {}
+  name: "OurTreeMap"
 };
 </script>
 <style lang="less" scoped>

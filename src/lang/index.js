@@ -1,13 +1,17 @@
-import messagesEn from './langs/en'
-import messagesCn from './langs/cn'
+import messagesEn from "./langs/en";
+import messagesCnt from "./langs/zh-hk";
+import messagesCns from "./langs/zh-cn";
 
 const messages = {
-    en: {
-      message: messagesEn
-    },
-    cn: {
-      message: messagesCn
-    }
+  en: {
+    message: messagesEn
+  },
+  cnt: {
+    message: messagesCnt
+  },
+  cns: {
+    message: messagesCns
   }
-  
-  export default messages;
+};
+
+export default messages;

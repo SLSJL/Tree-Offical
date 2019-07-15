@@ -2,7 +2,7 @@
 <template>
   <div class="container media-coverage">
     <div class="caption">
-      <span>Media</span>
+      <span>{{$t("message.resource.media.caption")}}</span>
     </div>
     <div class="media-group">
       <MediaList :dataset="list1Data"></MediaList>
@@ -50,29 +50,6 @@ export default {
             "190531_PCM_智慧政府創新實驗室開幕 樹木辦將為8,0…樹做電子監控.pdf",
           date: [30, "May", 2019]
         }
-        // {
-        //   title: "同途有心人-環境保護-第三十三集",
-        //   filePath: "http://event.881903.com/hkjc-charities/",
-        //   date: [21, "Oct", 2018]
-        // },
-
-        // {
-        //   title: "智能傳感器監測樹健康",
-        //   filePath: "1.2.pdf",
-        //   date: [15, "Jun", 2018]
-        // },
-        // {
-        //   title: "賽馬會智慧城市計畫啟動 監測8千棵樹木適時護養",
-        //   filePath: "1.5.pdf",
-        //   date: [15, "Jun", 2018]
-        // },
-        // {
-        //   title:
-        //     "PolyU to Apply Smart Sensing Technology in Urban Tree Management",
-        //   text: "This is the content of Media",
-        //   filePath: "2.3.pdf",
-        //   date: [15, "Jun", 2018]
-        // }
       ],
       list2Data: [
         {
@@ -88,20 +65,16 @@ export default {
         {
           title:
             "New Hong Kong Smart Lab opens with aim of allowing tech start-ups to pitch ideas that can be used to improve public services",
-          filePath:
-            "190530_NewSmartLAB.pdf",
+          filePath: "190530_NewSmartLAB.pdf",
           date: [31, "May", 2018]
         },
         {
-          title:
-            "九寶建智城 樹搖未塌先救",
-          filePath:
-            "190531_香港文匯報_九寶建智城 樹搖未塌即救.pdf",
+          title: "九寶建智城 樹搖未塌先救",
+          filePath: "190531_香港文匯報_九寶建智城 樹搖未塌即救.pdf",
           date: [31, "May", 2018]
         },
         {
-          title:
-            "樹木辦8000樹木裝傳感器　測傾斜情況防倒塌",
+          title: "樹木辦8000樹木裝傳感器　測傾斜情況防倒塌",
           filePath:
             "180614_香港經濟日報_理大3年內為市區8000棵樹裝傳感…監測傾斜角度.pdf",
           date: [30, "May", 2018]
@@ -123,15 +96,15 @@ export default {
     width: 100%;
     height: 40px;
     border-bottom: 1px solid #ddd;
-    font-weight: 600;
     span {
       display: inline-block;
-      width: 120px;
+      padding: 0 15px;
+      min-width: 120px;
       height: 40px;
+
       text-align: center;
       line-height: 40px;
       background-color: #00877a;
-      //   border-radius: 16px 16px 0 0;
       color: #fff;
       font-size: 1.6rem;
     }

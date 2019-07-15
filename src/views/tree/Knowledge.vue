@@ -1,8 +1,9 @@
 <template>
   <div class="container-fluid tree-knowledge">
-    <h1 class="introduction">
-      <img :src="require('./../../assets/images/tree/Point.png')">Click at the cards below! You could discover how tree to be managed in Hong Kong!
-    </h1>
+    <h2 class="introduction">
+      <img :src="require('./../../assets/images/tree/Point.png')" />
+      {{$t("message.tree.infocard.tips")}}
+    </h2>
 
     <div class="container cards-group">
       <TreeInfoCard
@@ -11,7 +12,7 @@
         :icon="item.icon"
         :fclr="item.fClr"
         :bgClr="item.bgClr"
-        v-for="(item,idx) in knowledgeOptions"
+        v-for="(item,idx) in $t('message.tree.infoCards')"
         :key="idx"
         @click="SET_ACTIVE_KNOWLEDGE(item.id)"
       ></TreeInfoCard>
@@ -22,15 +23,12 @@
         :order="idx+1"
         :caption="item.title"
         :text="item.content"
-        :clr="knowledgeClr(activeKonwledge)"
-        v-for="(item, idx) in $t('message.knowledgeInfo')[activeKonwledge]"
+        :clr="knowledgeClr"
+        v-for="(item, idx) in $t('message.tree.knowledgeInfo')[activeKonwledge]"
         :key="idx"
       ></KnowledgeCard>
     </div>
-    <p
-      class="attached-inof"
-      v-if="activeKonwledge != ''"
-    >We would like to acknowledge the source of info card in this website to Greening, Landscape and Tree Management Section, Development Bureau of HKSAR.</p>
+    <p class="attached-inof">{{$t('message.tree.acknowledgement')}}</p>
   </div>
 </template>
 
@@ -51,7 +49,14 @@ export default {
   },
   computed: {
     ...mapState("tree", ["activeKonwledge", "knowledgeOptions"]),
-    ...mapGetters("tree", ["knowledgeClr"])
+    ...mapGetters("tree", ["knowledgeClr"]),
+    knowledgeClr: function() {
+      let knowledges = this.$t("message.tree.infoCards");
+      let selectedCard = knowledges.find(el => {
+        return el.id === this.activeKonwledge;
+      });
+      return selectedCard.fClr;
+    }
   },
   data() {
     return {};
@@ -61,14 +66,17 @@ export default {
 <style lang="less" scoped>
 .tree-knowledge {
   min-height: 50rem;
-  background-color: #f5f5f5;
+  background-color: #eee;
   overflow: auto;
 
-  h1.introduction {
+  h2.introduction {
     margin: 0 auto;
     margin-top: 30px;
+    // border-top: 4px solid #00a091;
+    // border-bottom: 4px solid #00a091;
+
     width: 1200px;
-    padding: 30px 0;
+    padding: 15px 0;
 
     display: flex;
     justify-content: center;
@@ -79,26 +87,30 @@ export default {
 
     img {
       margin: 0 15px;
-      height: 32px;
+      height: 24px;
       transform: rotate(180deg);
     }
   }
 
   .cards-group {
-    margin-top: 15px;
-    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-content: center;
-    box-sizing: border-box;
 
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    box-sizing: border-box;
     background-color: #fff;
   }
 
   .info-card-content {
     margin: 15px auto;
-    /*定义列数*/
-    column-count: 2;
+    display: inline-grid;
+    box-sizing: border-box;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 15px;
+    grid-column-gap: 7px;
     /*列间距*/
   }
 
@@ -106,24 +118,24 @@ export default {
     margin: 15px auto;
     margin-top: 3rem;
     padding: 1.5rem;
-    border-top: 1px dashed #ccc;
-    border-bottom: 1px dashed #ccc;
 
     width: 100%;
     max-width: 1200px;
 
-    color: #909090;
-    font-size: 1.4rem;
+    color: #606060;
+    font-size: 1.3em;
     box-sizing: border-box;
     line-height: 2.4rem;
-    text-align: left;
+    text-align: center;
+
+    background-color: #fff;
   }
 }
 
 @media only screen and (min-width: 48em) and (max-width: 75em) {
   .tree-knowledge {
     width: 100%;
-    h1.introduction {
+    h2.introduction {
       width: 90%;
       font-size: 1.4rem;
       padding: 1.5rem 0;
@@ -148,12 +160,7 @@ export default {
 
     .info-card-content {
       margin: 15px auto;
-      padding: 0 1.5rem;
       width: 90%;
-
-      /*定义列数*/
-      column-count: 2;
-      /*列间距*/
     }
   }
 }
@@ -161,7 +168,7 @@ export default {
 @media only screen and (max-width: 48em) {
   .tree-knowledge {
     width: 100%;
-    h1.introduction {
+    h2.introduction {
       width: 90%;
       font-size: 1.2rem;
       padding: 1.5rem 0;
@@ -189,7 +196,7 @@ export default {
       width: 100%;
 
       /*定义列数*/
-      column-count: 1;
+      display: block;
       /*列间距*/
     }
   }
