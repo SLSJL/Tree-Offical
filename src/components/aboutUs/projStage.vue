@@ -46,6 +46,7 @@ export default {
     // padding-right: 15px;
 
     .location-lable-gp {
+      padding: 15px;
       width: 100%;
       display: flex;
       align-items: center;

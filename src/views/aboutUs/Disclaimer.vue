@@ -27,10 +27,11 @@ export default {
 </script>
 <style lang="less" scoped>
 .aboutus-disclaimer {
-  min-height: 400px;
+  min-height: 500px;
   padding-top: 1.5rem;
 
   .location-lable-gp {
+    padding-left: 1.5rem;
     width: 100%;
     display: flex;
     align-items: center;

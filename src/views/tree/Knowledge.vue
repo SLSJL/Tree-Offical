@@ -127,7 +127,7 @@ export default {
     box-sizing: border-box;
     line-height: 2.4rem;
     text-align: center;
-
+    font-weight: bolder;
     background-color: #fff;
   }
 }

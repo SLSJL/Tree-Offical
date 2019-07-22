@@ -14,7 +14,7 @@ import HommSec2 from "./HomeSec2";
 import HommSec3 from "./HomeSec3";
 import HommSec4 from "./HomeSec4";
 import HommSec5 from "./HomeSec5";
-import WebFooter from "./../../components/WebFooter/";
+import WebFooter from "./../../components/webFooter/";
 
 export default {
   name: "home",

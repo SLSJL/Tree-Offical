@@ -5,7 +5,7 @@ export default [
     title: `绿化的好处  (1)`,
     content: `<p class="kc-text">通过丰富多彩的树木、灌木、花卉以及一系列合理分布和精心配置的城市绿化建设，不但能营造清新美丽、舒适优雅的环境，还可以改善城市生活条件，提高生活质量。</p>
               <p class="kc-text">欢迎访问:</p>
-              <p class="kc-text"><a href="https://www.greening.gov.hk/en/people_trees_harmony/benefits_greening.html" target="_blank">https://www.greening.gov.hk/en/people_trees_harmony/benefits_greening.html</a></p>`
+              <p class="kc-text"><a href="https://sc.devb.gov.hk/TuniS/www.greening.gov.hk/tc/people_trees_harmony/benefits_greening.html" target="_blank">https://sc.devb.gov.hk/TuniS/www.greening.gov.hk/tc/people_trees_harmony/benefits_greening.html</a></p>`
   },
   {
     title: `绿化的好处 (2)`,

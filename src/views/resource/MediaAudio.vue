@@ -5,27 +5,19 @@
       <span>{{$t("message.resource.audio.caption")}}</span>
     </div>
     <div class="media-group">
-      <MediaList :dataset="list1Data"></MediaList>
+      <NewsItem v-for="(item,idx) in $t('message.resource.audio.list')" :key="idx" :news="item"></NewsItem>
     </div>
   </div>
 </template>
 <script>
-import MediaList from "./../../components/resource/MediaList";
+import NewsItem from "./../../components/resource/NewsItem";
 
 export default {
   components: {
-    MediaList
+    NewsItem
   },
   data() {
-    return {
-      list1Data: [
-        {
-          title: "同途有心人-環境保護-第三十三集",
-          filePath: "http://event.881903.com/hkjc-charities/",
-          date: [21, "Aug", 2018]
-        }
-      ]
-    };
+    return {};
   }
 };
 </script>
@@ -45,7 +37,7 @@ export default {
       padding: 0 15px;
       min-width: 120px;
       height: 40px;
-      
+
       text-align: center;
       line-height: 40px;
       background-color: #00877a;
@@ -60,13 +52,10 @@ export default {
     width: 100%;
     margin-top: 15px;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    flex-flow: row wrap;
 
-    > div {
-      margin: 0 15px;
-      flex-grow: 1;
-    }
+    justify-content: space-between;
+    align-content: center;
   }
 }
 
@@ -75,6 +64,12 @@ export default {
     width: 100%;
     padding: 0 6rem;
     box-sizing: border-box;
+
+    .media-group {
+      padding: 0 15px;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
   }
 }
 
@@ -85,7 +80,9 @@ export default {
     box-sizing: border-box;
 
     .media-group {
+      padding: 0 15px;
       flex-direction: column;
+      box-sizing: border-box;
     }
   }
 }

@@ -6,12 +6,14 @@
     </div>
     <div class="media-group">
       <div class="media-first">
-        <h1>PolyU to apply smart sensing technology in urban tree management</h1>
+        <h1>{{$t("message.resource.event.evt1.title")}}</h1>
         <p>
-          The Hong Kong Polytechnic University (PolyU) today (14 June) kicked off the Jockey Club Smart City Tree Management Project, a large-scale pilot project in Hong Kong, with the support from academia, non-government organisations (NGOs) and the Government, to apply smart sensing technology (SST) and Geographic Information Systems (GIS) for monitoring tree stability to enhance timely appropriate mitigation measures for sustaining longer tree lives.
-          <br />...
+          <span v-html="$t('message.resource.event.evt1.body')"></span>
           <br />
-          <button @click="goToPDF">Detail >></button>
+          <a
+            target="_blank"
+            :href="$t('message.resource.event.evt1.link')"
+          >{{$t("message.resource.event.evt1.detail")}} >></a>
         </p>
       </div>
 
@@ -57,7 +59,7 @@ export default {
 .res-events {
   margin: 30px auto;
   display: flex;
-  height: 360px;
+  height: 450px;
   flex-direction: column;
 
   text-align: left;
@@ -146,6 +148,7 @@ export default {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
+
     .media-item {
       display: none;
       margin: 0 5px;

@@ -16,7 +16,7 @@ import DatabaseMap from "./../../components/database/DatabaseMap";
 import Introduction from "./introduction";
 import GisIntroSwitch from "./../../components/database/introSwitch";
 
-import WebFooter from "./../../components/WebFooter/";
+import WebFooter from "./../../components/webFooter/";
 
 export default {
   name: "OurTree",

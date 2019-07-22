@@ -6,5 +6,5 @@ export default {
   sec3:
     "The sensor measures the <br> <b class='em-keywrord'>physical response</b> of a tree <br>to wind force",
   sec4:
-    "A <b class='em-keywrord'>GIS platform</b> to locate <br > the trees provided with sensor <br>and tree information"
+    "A <b class='em-keywrord'>GIS platform</b> locates <br > the trees provided with sensor <br>and tree information"
 };

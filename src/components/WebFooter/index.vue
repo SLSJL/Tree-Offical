@@ -2,10 +2,10 @@
   <div class="container-fluid">
     <div class="web-footer-infobar">
       <div class="gp-wrap">
-        <img class="jc-logo" :src="require('./../../assets/images/home/hkjc.png')" alt>
+        <img class="jc-logo" :src="require('./../../assets/images/home/hkjc.png')" alt />
         <p>
-          Copyright © 2018 - 2019.Remote Sensing Laboratory,
-          <br>The Hong Kong Polytechnic University. All rights reserved.
+          Copyright © 2018 - 2019. Jockey Club Smart City Tree Management Project,
+          <br />The Hong Kong Polytechnic University. All rights reserved.
         </p>
       </div>
 
@@ -13,33 +13,33 @@
         <h3>ADDRESS</h3>
         <p>
           The Department of Land Surveying and Geo-Informatics,
-          <br>The Hong Kong Polytechnic University,
-          <br>Room ZS621, 6/F, South Wing, Block Z,Phase 8,
-          <br>181 Chatham Road South,
-          <br>Hung Hom, Kowloon, Hong Kong.
+          <br />The Hong Kong Polytechnic University,
+          <br />Room ZB213, South Wing, Block Z, Phase 8,
+          <br />181 Chatham Road South,
+          <br />Hung Hom, Kowloon, Hong Kong.
         </p>
       </div>
 
-      <div class="gp-wrap">
+      <!-- <div class="gp-wrap">
         <h3>OPENING HOURS</h3>
         <p>
           Monday - Friday:
-          <br>8:45am - 5:35pm
-          <br>
-          <br>Lunch Break:
-          <br>1:00pm - 2:00pm
-          <br>
-          <br>Saturdays, Sundays and Public Holidays:
-          <br>Closed
+          <br />8:45am - 5:35pm
+          <br />
+          <br />Lunch Break:
+          <br />1:00pm - 2:00pm
+          <br />
+          <br />Saturdays, Sundays and Public Holidays:
+          <br />Closed
         </p>
-      </div>
+      </div>-->
 
       <div class="gp-wrap">
         <h3>CONTACT</h3>
         <p>
-          TEL (852) 2766-5968
-          <br>FAX (852) 2330-2994
-          <br>EMAIL lsdept@polyu.edu.hk
+          TEL (852) 2766-4655
+          <br />FAX (852) 2330-2994
+          <br />EMAIL jcsmarttree@gmail.com
         </p>
       </div>
     </div>
@@ -71,7 +71,7 @@ export default {
 
     .jc-logo {
       margin-bottom: 3rem;
-      height: 6rem;
+      height: 9rem;
     }
 
     p {
@@ -102,7 +102,7 @@ export default {
   .cooperate-gp {
     display: flex;
     width: 100%;
-    height:800px;
+    height: 800px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -130,7 +130,7 @@ export default {
       margin: 15px 30px;
       text-align: left;
       color: #fff;
- 
+
       p {
         font-size: 13px;
         line-height: 20px;

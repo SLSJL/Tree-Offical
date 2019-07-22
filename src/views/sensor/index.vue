@@ -34,7 +34,7 @@
 <script>
 import Navigation from "./../../components/navigation/";
 import SensorArticle from "./../../components/sensor/SensorArticle";
-import WebFooter from "./../../components/WebFooter/";
+import WebFooter from "./../../components/webFooter/";
 
 export default {
   name: "Sensor",
@@ -86,9 +86,7 @@ export default {
         h1{
           font-size: 3.6rem;
           letter-spacing: 2px;
-          font-family: "Roboto-Condensed", "Avenir", Helvetica, Arial, sans-serif;
           text-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
-        
         }
 
         p {

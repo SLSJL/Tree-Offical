@@ -24,7 +24,7 @@ export default {
         {
           imgPath: require("./../../assets/images/resouce/Public1.png"),
           caption: "publication_Feb 2019_p74_77.pdf",
-          pdfPath: "publication_Feb 2019_p74_77.pdf"
+          pdfPath: "publication_Feb.pdf"
         },
         {
           imgPath: require("./../../assets/images/resouce/Public2.png"),

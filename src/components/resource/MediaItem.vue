@@ -1,8 +1,8 @@
 <template>
   <div :class="['res-media-item']">
-    <img :src="imgPath">
+    <img :src="imgPath" />
     <div class="media-mask" v-if="mask">
-      <img src alt>
+      <img src alt />
     </div>
     <div :class="['text-info', {isVideo: mask} ]">
       <!-- <h5>{{title}}</h5> -->
@@ -170,7 +170,7 @@ export default {
     img {
       position: absolute;
       width: auto;
-      height: 100%;
+      height: 80%;
       z-index: 1;
     }
 

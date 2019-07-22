@@ -10,26 +10,26 @@
         href="https://charities.hkjc.com/charities/chinese/charities-trust/index.aspx"
         target="blank"
       >
-        <img :src="require('./../../assets/images/home/p6_1.png')" alt />
+        <img :src="require('./../../assets/images/home/p6_1_1.png')" alt />
       </a>
 
       <a href="https://www.polyu.edu.hk/web/en/home/index.html" target="blank">
         <img :src="require('./../../assets/images/home/p6_2.png')" alt />
       </a>
-      
-      <a href="https://www.ust.hk/" target="blank">
-        <img :src="require('./../../assets/images/home/p6_3.png')" alt />
+
+      <a href="https://www.biosch.hku.hk/" target="blank">
+        <img :src="require('./../../assets/images/home/ust.png')" alt />
       </a>
 
       <a href="https://www.hku.hk/" target="blank">
         <img :src="require('./../../assets/images/home/p6_4.png')" alt />
       </a>
 
-      <a href="https://www.foe.org.hk/default.aspx" target="blank">
-        <img :src="require('./../../assets/images/home/p6_5.png')" alt />
+      <a href="https://www.afcd.gov.hk/tc_chi/index.html" target="blank">
+        <img :src="require('./../../assets/images/aboutUs/Agriculture.png')" alt />
       </a>
 
-      <a href="https://www.greening.gov.hk/en/home/index.html" target="blank">
+      <a href="https://www.devb.gov.hk/en/home/index.html" target="blank">
         <img :src="require('./../../assets/images/aboutUs/DevelopmentBureau.png')" alt />
       </a>
 
@@ -49,11 +49,12 @@
         <img :src="require('./../../assets/images/aboutUs/Architectural.png')" alt />
       </a>
 
-      <a href="https://www.foe.org.hk/default.aspx" target="blank">
+      <a class="large" href="https://www.lcsd.gov.hk/en/" target="blank">
         <img :src="require('./../../assets/images/aboutUs/leisure.png')" alt />
       </a>
-      <a href="https://www.afcd.gov.hk/tc_chi/index.html" target="blank">
-        <img :src="require('./../../assets/images/aboutUs/Agriculture.png')" alt />
+
+      <a class="large" href="https://www.foe.org.hk/default.aspx" target="blank">
+        <img :src="require('./../../assets/images/home/p6_5.png')" alt />
       </a>
     </div>
   </div>
@@ -90,15 +91,20 @@ export default {
   .partner-group {
     width: 100%;
     text-align: left;
-    overflow: auto;
     a {
       margin: 30px 0;
       display: inline-block;
       width: 50%;
       text-align: left;
+      overflow: hidden;
 
       img {
-        height: 60px;
+        height: 90px;
+      }
+    }
+    a.large {
+      img {
+        height: 120px;
       }
     }
   }
@@ -124,6 +130,11 @@ export default {
           max-width: 60%;
         }
       }
+      a.large {
+        img {
+          height: 60px;
+        }
+      }
     }
   }
 }
@@ -147,6 +158,11 @@ export default {
         img {
           width: auto !important;
           height: 40px;
+        }
+      }
+      a.large {
+        img {
+          height: 60px;
         }
       }
     }

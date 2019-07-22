@@ -37,8 +37,8 @@ import {
   BreadcrumbItem,
   // Form,
   // FormItem,
-  // Tabs,
-  // TabPane,
+  Tabs,
+  TabPane,
   // Tag,
   Tree,
   // Alert,
@@ -108,8 +108,8 @@ const ElementUI = {
     Vue.use(BreadcrumbItem);
     // Vue.use(Form);
     // Vue.use(FormItem);
-    // Vue.use(Tabs);
-    // Vue.use(TabPane);
+    Vue.use(Tabs);
+    Vue.use(TabPane);
     // Vue.use(Tag);
     Vue.use(Tree);
     // Vue.use(Alert);

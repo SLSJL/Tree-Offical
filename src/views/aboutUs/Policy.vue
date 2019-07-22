@@ -14,7 +14,7 @@
     <p>
       {{$t("message.aboutus.policy.text.p3")}}
       <a
-        href="https://www.polyu.edu.hk/web/tc/privacy_policy_statement/index.html"
+        href="https://www.polyu.edu.hk/web/en/privacy_policy_statement/index.html"
         target="_blank"
       >{{$t("message.aboutus.policy.text.p4")}}</a>
     </p>
@@ -35,10 +35,11 @@ export default {
 </script>
 <style lang="less" scoped>
 .aboutus-policy {
-  min-height: 400px;
+  min-height: 500px;
   padding-top: 1.5rem;
 
   .location-lable-gp {
+    padding-left: 1.5rem;
     width: 100%;
     display: flex;
     align-items: center;

@@ -39,8 +39,10 @@ export default {
 .aboutus-project-team {
   overflow: auto;
   padding-top: 1.5rem;
+  min-height: 50rem;
 
   .location-lable-gp {
+    padding-left: 15px;
     width: 100%;
     display: flex;
     align-items: center;

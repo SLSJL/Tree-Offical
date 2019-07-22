@@ -35,11 +35,12 @@ export default {
   justify-content: space-between;
   align-items: flex-start;
   padding-top: 1.5rem;
-  min-height: 400px;
+  min-height: 500px;
 
   .article-body {
     flex: 1;
     .location-lable-gp {
+      padding-left: 15px;
       width: 100%;
       display: flex;
       align-items: center;

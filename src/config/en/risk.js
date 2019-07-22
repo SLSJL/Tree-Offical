@@ -2,7 +2,7 @@ export default [
   {
     title: `Importance`,
     content: `<p class="kc-text">Proper tree maintenance contributes to healthy growth in trees.</p>
-    <p class="kc-text"><p class="kc-text">Poor tree maintenance trigger off improper pruning, topping, damage to the root system and tree falling which would cause injury and loss of human lives and to properties.</p>
+    <p class="kc-text"><p class="kc-text">Poor tree maintenance triggesr off improper pruning, topping, damage to the root system and tree falling which would cause injury and loss of human lives and to properties.</p>
     <p class="kc-text"><p class="kc-text">Trees grow with their conditions changing with time.  Annual inspection and routine tree maintenance works are carried out by a landscape service provider or an arborist or a tree specialist.</p>
     <p class="kc-img">	<img src=${require("./../../assets/images/tree/knowloge/risk/risk1.png")}>`
   },
@@ -30,7 +30,7 @@ export default [
   {
     title: `Preliminary Maintenance Inspections (4)`,
     content: `<p class="kc-text">Take appropriate actions in case of the following situations:</p>
-            <p class="kc-sub-text">	Dead branches, crack/split branches, hanging branches  </p>
+            <p class="kc-sub-text">	- Dead branches, crack/split branches, hanging branches  </p>
             <p class="kc-img">	<img src=${require("./../../assets/images/tree/knowloge/risk/risk5.png")}>
             <p class="kc-text">	Recommend pruning or removal of branches</p>`
   },
@@ -39,7 +39,7 @@ export default [
     content: `<p class="kc-text">	Take appropriate actions in case of the following situations:</p>
             <p class="kc-sub-text">- V-shaped crotch with cracks/ split on trunk</p>
             <p class="kc-sub-text">- Weak union with crack(s) and/ decay on trunk</p>
-            <p class="kc-sub-text">- Wood Decay and Cavity on trunk</p>
+            <p class="kc-sub-text">- Wood decay and cavity on trunk</p>
             <p class="kc-img">	<img src=${require("./../../assets/images/tree/knowloge/risk/risk6.png")}>
             <p class="kc-text">	Recommend adding support system or removal of the tree.</p>
           `

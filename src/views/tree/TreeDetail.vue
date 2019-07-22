@@ -24,34 +24,28 @@
             <a
               class="links-addr"
               target="_blank"
-              href="http://www.herbarium.gov.hk/subpages.aspx?id=8337"
-            >http://www.herbarium.gov.hk/subpages.aspx?id=8337</a>
+              href="https://www.herbarium.gov.hk/subpages.aspx?id=8337"
+            >https://www.herbarium.gov.hk/subpages.aspx?id=8337</a>
           </span>
           <br />
           <span class="link-name">{{$t("message.tree.details.p4.body2.item2")}}</span>
           <a
             class="links-addr"
             target="_blank"
-            href="http://www.herbarium.gov.hk/subpages.aspx?id=8057"
-          >http://www.herbarium.gov.hk/subpages.aspx?id=8057</a>
+            href="https://www.herbarium.gov.hk/subpages.aspx?id=8057"
+          >https://www.herbarium.gov.hk/subpages.aspx?id=8057</a>
           <br />
           <span class="link-name">{{$t("message.tree.details.p4.body2.item3")}}</span>
           <a
             class="links-addr"
             target="_blank"
-            href="http://www.herbarium.gov.hk/subpages.aspx?id=8361"
-          >http://www.herbarium.gov.hk/subpages.aspx?id=8361</a>
+            href="https://www.herbarium.gov.hk/subpages.aspx?id=8361"
+          >https://www.herbarium.gov.hk/subpages.aspx?id=8361</a>
           <br />
-          <span class="link-name">{{$t("message.tree.details.p4.body2.item4")}}</span>
-          <a
-            class="links-addr"
-            target="_blank"
-            href="http://www.herbarium.gov.hk/subpages.aspx?id=8135"
-          >http://www.herbarium.gov.hk/subpages.aspx?id=8135</a>
         </p>
         <h1>{{$t("message.tree.details.p5.caption")}}</h1>
         <p>{{$t("message.tree.details.p5.body1")}}</p>
-        <img :src="require('./../../assets/images/tree/urban-tree.jpg')" alt />
+        <img class="large" :src="require('./../../assets/images/tree/urban-tree.jpg')" alt />
         <h1>{{$t("message.tree.details.p6.caption")}}</h1>
         <p>{{$t("message.tree.details.p6.body1")}}</p>
         <p>{{$t("message.tree.details.p6.body2")}}</p>
@@ -65,8 +59,14 @@
           <a
             class="links-addr"
             target="_blank"
-            href="https://www.gov.hk/en/residents/environment/conservation/regoldvaluetree.htm"
-          >https://www.gov.hk/en/residents/environment/conservation/regoldvaluetree.htm</a>
+            :href="$t('message.tree.details.p6.body3')"
+          >{{$t('message.tree.details.p6.body3')}}</a>
+          <br />
+          <a
+            class="links-addr"
+            target="_blank"
+            :href="$t('message.tree.details.p6.body4')"
+          >{{$t('message.tree.details.p6.body4')}}</a>
         </p>
       </div>
     </div>
@@ -153,6 +153,7 @@ export default {
       font-size: 16px;
       color: #606060;
       line-height: 24px;
+      // word-break: break-all;
 
       span.link-name {
         display: inline-block;

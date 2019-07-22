@@ -115,6 +115,7 @@ export default {
         flex-direction: column;
         justify-content: center;
         align-content: center;
+        box-sizing: border-box;
         margin: 1%;
         width: 32%;
         height: 100%;
@@ -142,6 +143,8 @@ export default {
       display: block;
       height: 102rem !important;
       .video-item {
+        box-sizing: border-box;
+
         width: 100%;
         height: 320px;
       }

@@ -123,6 +123,12 @@ export default new Router({
       name: "resource",
       component: () =>
         import(/* webpackChunkName: "about" */ "@/views/resource")
+    },
+    {
+      path: "/resource/mediamore",
+      name: "mediamore",
+      component: () =>
+        import(/* webpackChunkName: "about" */ "@/views/resource/MoreMedia")
     }
   ]
 });

@@ -10,7 +10,7 @@
 <script>
 import Navigation from "./../../components/navigation/";
 import AboutUsNav from "./../../components/aboutUs/aboutUsNav";
-import WebFooter from "./../../components/WebFooter/";
+import WebFooter from "./../../components/webFooter/";
 
 export default {
   name: "OurTree",

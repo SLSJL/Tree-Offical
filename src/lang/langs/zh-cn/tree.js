@@ -34,7 +34,7 @@ export default {
     p4: {
       caption: "监测树种",
       body1:
-        "选择9个有倒塌风险的树木品种用于监测，例如：宫粉羊蹄甲、凤凰木、铁刀木、石栗。",
+        "此先导计划选取多种市区常见的树木品种作为测验，例如：宫粉羊蹄甲、凤凰木、铁刀木、石栗等。",
       body2: {
         item1: "Bauhinia variegata:",
         item2: "Delonix regia:",
@@ -51,7 +51,11 @@ export default {
       caption: "古树名木册",
       body1:
         "香港政府已建立了古树名木册（OVT），以确保城市树木得到妥善的保存和维护，并保护我们的遗产和珍贵的自然资源。OVT信息包括大树、珍贵或稀有树木品种、古树（例如树龄超过一百年）、具有文化、历史或重要纪念意义的树木；以及树形出众的树木。OVT信息还包括每棵树的物理和健康状况，其位置和预期寿命。目前，已注册的OVT约有460个。",
-      body2: "欢迎访问以下链接以获取更多参考数据："
+      body2: "欢迎访问以下链接以获取更多参考数据：",
+      body3:
+        "https://www.gov.hk/sc/residents/environment/conservation/regoldvaluetree.htm",
+      body4:
+        "https://www.greening.gov.hk/treeregister/map/treeIndex.aspx?lang=zh-CN"
     }
   },
   infocard: {

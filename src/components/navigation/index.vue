@@ -29,7 +29,8 @@ export default {
         "projectObjectives",
         "projectStage",
         "disclaimer",
-        "policy"
+        "policy",
+        "mediamore"
       ]
     };
   },

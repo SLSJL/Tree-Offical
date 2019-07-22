@@ -8,7 +8,7 @@ export default [
   },
   {
     title: `Benefits of Greening (2)`,
-    content: `<p class="kc-text">Green landscape is an important means to change the urban environment. Through tree and flora planting will form a complete greenery system which can achieve purification of air, prevention of pollution, adjustment of climate, improvement of soil quality and ecology as well as enhancement of visual environment.</p>
+    content: `<p class="kc-text">Green landscape is an important means to change the urban environment. Through tree and flora planting, it will form a complete greenery system which can achieve purification of air, prevention of pollution, adjustment of climate, improvement of soil quality and ecology as well as enhancement of visual environment.</p>
     <p class="kc-img"><img src=${require("./../../assets/images/tree/knowloge/green/g1.png")}> `
   }
 ];

@@ -10,10 +10,10 @@ export default {
   },
   section2: {
     p1:
-      "We base on Smart Sensing Technology (SST) to develop an integrated system for monitoring tree tilting angles. With tailor-made sensors installed on the lower trunk of 400 selected urban trees in two areas with high traffic and pedestrian flow, it monitors tree tilting angles over time. Trees of 9 vulnerable species at risk of tree failure are selected for monitoring, such as Bauhinia variegata, Delonix regia, Senna siamea, Aleurites moluccana, etc.",
+      "我們藉由智能傳感技術（SST）開發一種用於監控樹木傾斜角度的綜合系統。我們已選定400棵在兩個交通繁忙，人流量大的地方的城市樹木，並在它們的樹幹底部安裝研發的傳感器，以隨時監測樹木的傾斜角度。監測的名單上具有多種樹木，例如：宮粉羊蹄甲、鳳凰木、鐵刀木、石栗等。",
     p2:
-      "Taking various environmental factors into consideration, a threshold value will be determined to measure the root-plate movement. If a sensor detects that the tilting angle of a tree exceeds the threshold, the System will give an alert to conduct a visit to the tree and/or to conduct detailed investigations. The System will be further implemented on over 8,000 trees across the entire city in Hong Kong.",
+      "綜合各種環境因素，作為測量樹木傾斜角度。如果傳感器檢測出的樹木傾斜角度超過臨介點，系統將發出通知，提示樹木管理人員進行詳細調查。這系統將進一步於香港的8,000多棵樹上實施監測傾斜度。",
     p3:
-      "The sensor measures the mechanical response of a tree to wind force, recording the tilting values at near ground level and provides an insightful strength of root anchorage. Monitoring root plate rotation by means of the sensor on a regular basis would enable an early warning system in tree management to reduce the risk of damage caused by root failure."
+      "傳感器測量樹木對風力的機械響應，記錄近地面的傾斜值，並提供根部錨固的深刻強度。 通過傳感器定期監測根板旋轉將使樹木管理中的早期預警系統能夠降低根部失效造成的損壞風險。"
   }
 };

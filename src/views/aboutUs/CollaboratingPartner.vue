@@ -54,7 +54,10 @@ export default {
 .collabratie-partners-article {
   overflow: auto;
   padding-top: 1.5rem;
+  min-height: 50rem;
+
   .location-lable-gp {
+    padding-left: 1.5rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -80,7 +83,7 @@ export default {
       text-align: left;
 
       img {
-        height: 60px;
+        height: 80px;
       }
     }
 
@@ -92,7 +95,7 @@ export default {
         display: inline-block;
         text-align: left;
         img {
-          height: 60px;
+          height: 80px;
         }
       }
 
@@ -100,7 +103,7 @@ export default {
       a:nth-child(3) {
         width: 25%;
         img {
-          height: 40px;
+          height: 70px;
         }
       }
     }

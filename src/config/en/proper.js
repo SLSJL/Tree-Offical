@@ -9,7 +9,7 @@ export default [
   },
   {
     title: `Design of Tree Protection Zone (Effective tree protection on site) (1)`,
-    content: `<p class="kc-text">Have knowledge of tree protection and obtain active involvement of all levels of project management, design and construction teams.</p>
+    content: `<p class="kc-text">Acquire knowledge of tree protection and obtain active involvement of all levels of project management, design and construction teams.</p>
     <p class="kc-text">	Plan and draw up a tree protection zone during design stage.</p>
     <p class="kc-img">	<img src=${require("./../../assets/images/tree/knowloge/proper/proper2.png")}></p>`
   },
@@ -46,10 +46,6 @@ export default [
           <p class="kc-sub-text">-	Balanced canopy and normal foliage;</p>
           <p class="kc-sub-text">-	Good live-crown ratio (more than 60%);</p>
           <p class="kc-sub-text">-	Enough root ball size;</p>
-          <p class="kc-sub-text">-	Free of root defects e.g. circling roots, kinked roots, girdling roots;</p>
-          <p class="kc-sub-text">-	Free of large wound/ cavity/ split/ crack;</p>
-          <p class="kc-sub-text">-	Free of pest/ disease;</p>
-          <p class="kc-sub-text">-	Free of structural defect.</p>
           <p class="kc-img">	<img src=${require("./../../assets/images/tree/knowloge/proper/proper7.png")}></p>`
   },
   {
@@ -77,7 +73,7 @@ export default [
     title: `Provide Adequate Growing Space for Future Growth Of Canopy (3)`,
     content: `
     <p class="kc-text">Choose a location which allows the full width of the mature canopy or for other purposes of screening a view or of achieving a desirable shade, etc.</p>
-    <p class="kc-text">Allow flexibility in some overlapping of tree cano</p>
+    <p class="kc-text">Allow flexibility in some overlapping of tree canopy</p>
     <p class="kc-img">	<img src=${require("./../../assets/images/tree/knowloge/proper/proper10.png")}></p>`
   },
   {
@@ -127,7 +123,7 @@ export default [
   {
     title: `Staking and Guying of Trees (4)`,
     content: `<p class="kc-text">Place stakes at around 1/3 or at a suitable height of the tree to allow some trunk movement.</p>
-    <p class="kc-text">	Use supports as few as possible as staking/ guying may restrict trunk movement. limit the development of the trunk and root system and weaken tree stability in long run.</p>
+    <p class="kc-text">	Use supports as few as possible as staking/ guying may restrict trunk movement. That would limit the development of the trunk and root system and weaken tree stability in long run.</p>
     <p class="kc-text">	Be flexible when tying trees as slight movement in wind may encourage root growth and trunk taper development.</p>
     <p class="kc-img">	<img src=${require("./../../assets/images/tree/knowloge/proper/proper16.png")}>`
   },

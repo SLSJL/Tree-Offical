@@ -45,7 +45,6 @@ export default {
   transition: box-shadow 0.6s;
   box-shadow: 5px 5px 50px 2px rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
-  cursor: pointer;
 
   h2 {
     margin: 0;

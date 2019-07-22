@@ -1,7 +1,7 @@
 export default [
   {
     title: `Purpose`,
-    content: `<p class="kc-text">Prune trees by removing branches for tree health, good structure and form for the purposes of</p>
+    content: `<p class="kc-text">Prune trees by removing branches for tree health, good structure and form for the purposes: </p>
               <p class="kc-sub-text">- To reduce risk and inconvenience to the public</p>
               <p class="kc-sub-text">- To maintain or improve health and structure of trees</p>
               <p class="kc-sub-text">- To improve the appearance of trees </p>`

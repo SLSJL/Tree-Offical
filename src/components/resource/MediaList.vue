@@ -18,7 +18,6 @@
         <div class="title">
           <div class="text-wrap">
             <h4 :title="item.title">{{item.title | titleFltr}}</h4>
-            <!-- <p>{{item.text}}</p> -->
           </div>
         </div>
       </li>
