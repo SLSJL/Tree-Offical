@@ -13,307 +13,219 @@ export default {
   },
   media: {
     caption: "最新報導",
+    allMedia:"所有報導",
     list: {
       m2019: [
         {
           date: "4-Jun-2019",
           sourceEng: "Commercial Radio Hong Kong",
-          sourceCn: "香港商業電台",
+          SourceCn: "香港商業電台",
           title: "智慧政府創新實驗室開幕為政府部門和科技業界配對",
-          type: "E-News",
-          fileName: "Newspaper/SYDT/SYDT-2.pdf"
-        },
-        {
-          date: "31-May-2019",
-          sourceEng: "7th Space",
-          sourceCn: "-",
-          title: "Hong Kong: Smart LAB launched",
-          type: "E-News",
-          fileName: "Newspaper/Space7/space_1.pdf"
+          address:
+            "http://www.881903.com/Page/ZH-TW/newsdetail.aspx?csid=261_341&itemid=1111155"
         },
         {
           date: "31-May-2019",
           sourceEng: "AM730",
-          sourceCn: "AM730",
+          SourceCn: "AM730",
           title: "明年首季8千棵裝感應器測量 全天候監察樹木健康",
-          type: "E-News",
-          fileName: "Newspaper/AM730/AM730_2.pdf"
-        },
-        {
-          date: "31-May-2019",
-          sourceEng: "Ming Pao",
-          sourceCn: "明報新聞網",
-          title:
-            "創新實驗室 實境地圖瞬變火警現場 供政府部門體驗新技術 冀助配對業界方案",
-          type: "E-News",
-          fileName: "Newspaper/MB/MB-1.pdf"
-        },
-        {
-          date: "31-May-2019",
-          sourceEng: "Oriental Daily News (Hong Kong)",
-          sourceCn: "東方日報 (香港)",
-          title: "傳感技術 監測塌樹危機 ",
-          type: "Newspaper",
-          fileName: "Newspaper/DFRB/DW-2.pdf"
-        },
-        {
-          date: "31-May-2019",
-          sourceEng: "Oriental Daily News (Hong Kong)",
-          sourceCn: "東方日報 (香港)",
-          title: "傳感技術 監測塌樹危機 ",
-          type: "E-News",
-          fileName: "Newspaper/DFRB/DW-3.pdf"
-        },
-        {
-          date: "31-May-2019",
-          sourceEng: "PCMarket",
-          sourceCn: "PCM 電腦廣場",
-          title:
-            "智慧政府創新實驗室開幕 樹木辦將為8,000棵樹做電子監控智慧政府創新實驗室開幕 樹木辦將為8,000棵樹做電子監控",
-          type: "E-News",
-          fileName: "Newspaper/PCM/PCM-1.pdf"
-        },
-        {
-          date: "31-May-2019",
-          sourceEng: "Sing Tao Daily",
-          sourceCn: "星島日報",
-          title: "政府創新實驗室開幕 將為8000樹裝監測器 ",
-          type: "Newspaper",
-          fileName: "Newspaper/XDRB/XDRB-2.pdf"
+          address:
+            "https://www.am730.com.hk/news/%E6%96%B0%E8%81%9E/%E6%98%8E%E5%B9%B4%E9%A6%96%E5%AD%A38%E5%8D%83%E6%A3%B5%E8%A3%9D%E6%84%9F%E6%87%89%E5%99%A8%E6%B8%AC%E9%87%8F-%E5%85%A8%E5%A4%A9%E5%80%99%E7%9B%A3%E5%AF%9F%E6%A8%B9%E6%9C%A8%E5%81%A5%E5%BA%B7-174721"
         },
         {
           date: "31-May-2019",
           sourceEng: "Sky Post",
-          sourceCn: "晴報",
+          SourceCn: "晴報",
           title: "創新實驗室開幕 搖動模型測塌樹危機",
-          type: "E-News",
-          fileName: "Newspaper/QB/QB-1.pdf"
+          address:
+            "https://skypost.ulifestyle.com.hk/article/2365737/創新實驗室開幕%20搖動模型測塌樹危機"
         },
         {
           date: "31-May-2019",
           sourceEng: "South China Morning Post",
-          sourceCn: "南華早報",
+          SourceCn: "南華早報",
           title:
             "New Hong Kong Smart Lab opens with aim of allowing tech start-ups to pitch ideas that can be used to improve public services",
-          type: "E-News",
-          fileName: "Newspaper/SCM/SCM-1.pdf"
+          address:
+            "https://www.scmp.com/news/hong-kong/society/article/3012514/new-hong-kong-smart-lab-opens-aim-allowing-tech-start-ups"
         },
         {
           date: "31-May-2019",
           sourceEng: "The Standard",
-          sourceCn: "英文虎報",
+          SourceCn: "英文虎報",
           title: "World first as tree sensors hold sway",
-          type: "E-News",
-          fileName: "Newspaper/Standard/Standard-1.pdf"
+          address:
+            "http://www.thestandard.com.hk/section-news.php?id=208231&sid=4"
         },
         {
           date: "31-May-2019",
           sourceEng: "Wen Wei Po (Hong Kong)",
-          sourceCn: "文匯報 (香港)",
+          SourceCn: "文匯報 (香港)",
           title: "九寶建智城 樹搖未塌先救",
-          type: "Newspaper",
-          fileName: "Newspaper/HKWHB/HKWHB-1.pdf"
-        },
-        {
-          date: "31-May-2019",
-          sourceEng: "Wen Wei Po (Hong Kong)",
-          sourceCn: "文匯報 (香港)",
-          title: "九寶建智城 樹搖未塌先救",
-          type: "E-News",
-          fileName: "Newspaper/HKWHB/HKWHB-2.pdf"
+          address: "http://paper.wenweipo.com/2019/05/31/HK1905310029.htm"
         },
         {
           date: "30-May-2019",
           sourceEng: "Bastille Post",
-          sourceCn: "巴士的報",
+          SourceCn: "巴士的報",
           title: "智慧政府創新實驗室開幕 配對政府及企業推動資訊科技應用",
-          type: "E-News",
-          fileName: "Newspaper/BP/BP_1.pdf"
+          address:
+            "https://www.bastillepost.com/hongkong/article/4467219-%E6%99%BA%E6%85%A7%E6%94%BF%E5%BA%9C%E5%89%B5%E6%96%B0%E5%AF%A6%E9%A9%97%E5%AE%A4%E9%96%8B%E5%B9%95-%E9%85%8D%E5%B0%8D%E6%94%BF%E5%BA%9C%E9%83%A8%E9%96%80%E5%8F%8A%E5%88%9D%E5%89%B5%E4%BC%81%E6%A5%AD?current_cat=3"
         },
         {
           date: "30-May-2019",
           sourceEng: "ezone",
-          sourceCn: "即時科技生活新聞",
+          SourceCn: "即時科技生活新聞",
           title: "香港智慧政府創新實驗室啟動 配對 Startup中小企技術方案",
-          type: "E-News",
-          fileName: "Newspaper/ezone/ezone-1.pdf"
+          address:
+            "https://ezone.ulifestyle.com.hk/article/2365419/%E9%A6%99%E6%B8%AF%E6%99%BA%E6%85%A7%E6%94%BF%E5%BA%9C%E5%89%B5%E6%96%B0%E5%AF%A6%E9%A9%97%E5%AE%A4%E5%95%9F%E5%8B%95%20%E9%85%8D%E5%B0%8D%20Startup%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%8A%80%E8%A1%93%E6%96%B9%E6%A1%88"
         },
         {
           date: "30-May-2019",
           sourceEng: "Headline Daily",
-          sourceCn: "頭條日報",
+          SourceCn: "頭條日報",
           title:
             "智慧政府創新實驗室開幕 配對政府部門及初創企業推動資訊科技應用",
-          type: "E-News",
-          fileName: "Newspaper/TTRB/TTRB-1.pdf"
-        },
-        {
-          date: "30-May-2019",
-          sourceEng: "HK CHINA NEWS",
-          sourceCn: "香港新聞網",
-          title: "智慧政府創新實驗室加強政府與本地業界聯繫",
-          type: "E-News",
-          fileName: "Newspaper/XGXWW/XGXWW-1.pdf"
+          address: "https://hd.stheadline.com/news/realtime/hk/1512163/"
         },
         {
           date: "30-May-2019",
           sourceEng: "HK01",
-          sourceCn: "香港01",
+          SourceCn: "香港01",
           title: "智慧政府創新實驗室開幕　樹木辦為8000樹裝感應器　可發傾斜信號",
-          type: "E-News",
-          fileName: "Newspaper/HK01/HK01-2.pdf"
+          address:
+            "https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/335080/%E6%99%BA%E6%85%A7%E6%94%BF%E5%BA%9C%E5%89%B5%E6%96%B0%E5%AF%A6%E9%A9%97%E5%AE%A4%E9%96%8B%E5%B9%95-%E6%A8%B9%E6%9C%A8%E8%BE%A6%E7%82%BA8000%E6%A8%B9%E8%A3%9D%E6%84%9F%E6%87%89%E5%99%A8-%E5%8F%AF%E7%99%BC%E5%82%BE%E6%96%9C%E4%BF%A1%E8%99%9F"
+        },
+        {
+          date: "30-May-2019",
+          sourceEng: "HK CHINA NEWS",
+          SourceCn: "香港新聞網",
+          title: "智慧政府創新實驗室加強政府與本地業界聯繫",
+          address: "http://www.hkcna.hk/content/2019/0530/765963_6.shtml"
         },
         {
           date: "30-May-2019",
           sourceEng: "HKSAR Press Release",
-          sourceCn: "香港政府新聞公報",
+          SourceCn: "香港政府新聞公報",
           title:
             "全新智慧政府創新實驗室與業界共創嶄新方案 提升公共服務質素（附圖）",
-          type: "Press Release",
-          fileName: "Newspaper/XWGB/XWGB-1.pdf"
+          address:
+            "https://www.news.gov.hk/chi/2019/05/20190530/20190530_172905_525.html"
         },
         {
           date: "30-May-2019",
           sourceEng: "HKSAR Press Release",
-          sourceCn: "香港政府新聞公報",
+          SourceCn: "香港政府新聞公報",
           title:
             "New Smart LAB co-creates innovative IT solutions with industry to enhance public services (with photos)",
-          type: "Press Release",
-          fileName: "Newspaper/XWGB/XWGB-2.pdf"
+          address:
+            "https://www.news.gov.hk/eng/2019/05/20190530/20190530_172905_525.html"
         },
         {
           date: "30-May-2019",
           sourceEng: "Hong Kong Economic Times",
-          sourceCn: "香港經濟日報",
+          SourceCn: "香港經濟日報",
           title: "樹木辦8000樹木裝傳感器　測傾斜情況防倒塌",
-          type: "E-News",
-          fileName: "Newspaper/HKJJRB/HKJJRB-2.pdf"
-        },
-        {
-          date: "30-May-2019",
-          sourceEng: "Information Services Department (ISD)",
-          sourceCn: "政府新聞網",
-          title: "智慧政府創新實驗室開幕",
-          type: "Press Release",
-          fileName: "Newspaper/ZFXWW/ZFXWW-1.pdf"
-        },
-        {
-          date: "30-May-2019",
-          sourceEng: "Information Services Department (ISD)",
-          sourceCn: "政府新聞網",
-          title: "Smart LAB launched",
-          type: "Press Release",
-          fileName: "Newspaper/ZFXWW/ZFXWW-2.pdf"
+          address:
+            "https://topick.hket.com/article/2365455/%E6%A8%B9%E6%9C%A8%E8%BE%A68000%E6%A8%B9%E6%9C%A8%E8%A3%9D%E5%82%B3%E6%84%9F%E5%99%A8%E3%80%80%E6%B8%AC%E5%82%BE%E6%96%9C%E6%83%85%E6%B3%81%E9%98%B2%E5%80%92%E5%A1%8C"
         },
         {
           date: "30-May-2019",
           sourceEng: "Line Today",
-          sourceCn: "今日頭條",
+          SourceCn: "今日頭條",
           title:
             "New Hong Kong Smart Lab opens with aim of allowing tech start-ups to pitch ideas that can be used to improve public services",
-          type: "E-News",
-          fileName: "Newspaper/LineToday/LineToday-1.pdf"
+          address:
+            "https://today.line.me/id/pc/article/New+Hong+Kong+Smart+Lab+opens+with+aim+of+allowing+tech+start+ups+to+pitch+ideas+that+can+be+used+to+improve+public+services-qGOEgW"
         },
         {
           date: "30-May-2019",
-          sourceEng: "on.cc",
-          sourceCn: "東網",
+          sourceEng: "Oriental Daily News (Hong Kong)",
+          SourceCn: "東網",
           title: "智慧創新實驗室開幕　展樹木搖動監控測樹榻危機",
-          type: "E-News",
-          fileName: "Newspaper/DW/DW-2.pdf"
+          address:
+            "https://orientaldaily.on.cc/cnt/news/20190531/00176_021.html"
         },
         {
           date: "30-May-2019",
           sourceEng: "RTHK",
-          sourceCn: "香港電台",
+          SourceCn: "香港電台",
           title: "智慧政府創新實驗室開幕 冀助提升公共服務質素與效率",
-          type: "E-News",
-          fileName: "Newspaper/RTHK/RTHK-1.pdf"
+          address:
+            "https://news.rthk.hk/rthk/ch/component/k2/1460148-20190530.htm"
         },
         {
           date: "30-May-2019",
           sourceEng: "Sing Tao Daily",
-          sourceCn: "星島日報",
-          title:
-            "智慧政府創新實驗室開幕 配對政府部門及初創企業推動資訊科技應用",
-          type: "E-News",
-          fileName: "Newspaper/XDRB/XDRB-1.pdf"
+          SourceCn: "星島日報",
+          title: "政府創新實驗室開幕 將為8000樹裝監測器 資訊科技應用",
+          address:
+            '"http://std.stheadline.com/daily/article/detail/2011961/%E6%97%A5%E5%A0%B1-%E6%B8%AF%E8%81%9E-%E6%94%BF%E5%BA%9C%E5%89%B5%E6%96%B0%E5%AF%A6%E9%A9%97%E5%AE%A4%E9%96%8B%E5%B9%95-%E5%B0%87%E7%82%BA8000%E6%A8%B9%E8%A3%9D%E7%9B%A3%E6%B8%AC%E5%99%A8'
         },
         {
           date: "30-May-2019",
           sourceEng: "World Times News",
-          sourceCn: "-",
+          SourceCn: "-",
           title: "Smart LAB launched ",
-          type: "E-News",
-          fileName: "Newspaper/WTN/WTN-1.pdf"
+          address: "https://hongkongnews.worldtimes.news/smart-lab-launched/"
         }
       ],
       m2018: [
         {
           date: "15-Jun-2018",
-          sourceEng: "AM730",
-          sourceCn: "AM730",
-          title: "8000樹裝傳感器監測樹木健康延樹齡",
-          type: "E-News",
-          fileName: "Newspaper/AM730/AM730_1.pdf"
+          sourceEng: "Ming Pao",
+          SourceCn: "",
+          title: "8000 樹裝儀器 遙距監測傾斜",
+          address: "https://goo.gl/CWb6mz "
         },
         {
           date: "15-Jun-2018",
-          sourceEng: "Commercial Radio Hong Kong",
-          sourceCn: "香港商業電台",
-          title: "理大團隊為8千棵樹安裝智能傳感器監測樹木傾斜角度",
-          type: "E-News",
-          fileName: "Newspaper/SYDT/SYDT-1.pdf"
-        },
-        {
-          date: "15-Jun-2018",
-          sourceEng: "Oriental Daily News (Hong Kong)",
-          sourceCn: "東方日報 (香港)",
+          sourceEng: "Oriental Daily",
+          SourceCn: "",
           title: "智能傳感器監測樹健康",
-          type: "E-News",
-          fileName: "Newspaper/DFRB/DW-1.pdf"
+          address: "https://goo.gl/UUKgVA"
         },
         {
           date: "15-Jun-2018",
-          sourceEng: "SING PAO DAILY NEWS",
-          sourceCn: "成報",
+          sourceEng: "Am730",
+          SourceCn: "",
+          title: "8000 樹裝傳感器 監測樹木健康延樹齡",
+          address: " https://goo.gl/cPCDfZ"
+        },
+        {
+          date: "15-Jun-2018",
+          sourceEng: "Metro Daily",
+          SourceCn: "",
+          title: "監測樹木",
+          address: "https://goo.gl/Poir3L"
+        },
+        {
+          date: "15-Jun-2018",
+          sourceEng: "Sky Post",
+          SourceCn: "",
+          title: "理大為 8000 棵樹裝傳感器安排護養",
+          address: "https://goo.gl/GMRU16"
+        },
+        {
+          date: "15-Jun-2018",
+          sourceEng: "Hong Kong Economic Journal (HKEJ)",
+          SourceCn: "",
+          title: "馬會捐 3200 萬元裝塌樹傳感器",
+          address: "https://goo.gl/qnPMwj"
+        },
+        {
+          date: "15-Jun-2018",
+          sourceEng: "Lion Rock Daily",
+          SourceCn: "",
+          title: "樹木裝傳感器 智能監測倒塌危機",
+          fileName: "newspaper/2018-11-rock.pdf"
+        },
+        {
+          date: "15-Jun-2018",
+          sourceEng: "Sing Pao Daily News",
+          SourceCn: "",
           title: "賽馬會智慧城市計劃啟動 監測八千樹木適時護養",
-          type: "E-News",
-          fileName: "Newspaper/CB/CB-1.pdf"
-        },
-        {
-          date: "14-Jun-2018",
-          sourceEng: "HK01",
-          sourceCn: "香港01",
-          title: "理大推先導計劃監察樹木斜度 首階段為400棵樹增設遙距傳感器",
-          type: "E-News",
-          fileName: "Newspaper/HK01/HK01-1.pdf"
-        },
-        {
-          date: "14-Jun-2018",
-          sourceEng: "Hong Kong Economic Times",
-          sourceCn: "香港經濟日報",
-          title: "理大3年內為市區8000棵樹裝傳感器 監測傾斜角度",
-          type: "E-News",
-          fileName: "Newspaper/HKJJRB/HKJJRB-1.pdf"
-        },
-        {
-          date: "14-Jun-2018",
-          sourceEng: "on.cc",
-          sourceCn: "東網",
-          title: "全港8000樹將裝傳感器 測傾斜度防倒塌",
-          type: "E-News",
-          fileName: "Newspaper/DW/DW-1.pdf"
-        },
-        {
-          date: "14-Jun-2018",
-          sourceEng:
-            "The Hong Kong Polytechnic University Communications and Public Affairs Office",
-          sourceCn: "香港理工大學 傳訊及公共事務處",
-          title:
-            "PolyU to apply smart sensing technology in urban tree management",
-          type: "Media Release",
-          fileName: "Newspaper/PolyU/PolyU-1.pdf"
+          address: "https://goo.gl/ft1yqA"
         }
       ]
     }
@@ -361,7 +273,7 @@ export default {
     evt1: {
       title: "賽馬會智慧城市樹木管理計劃啟動典禮",
       body:
-        "香港理工大學（理大）今天（6月14日）正式啟動一個由學術界、非牟利組織及政府合作的大型先導項目 — 賽馬會智慧城市樹木管理計劃，運用智能傳感技術及地理資訊系統，大規模監測樹木的穩定性，以適時安排恰當的護養措施，從而延長樹齡。",
+        "香港理工大學（理大）今天（6月14日）正式啟動一個由學術界、非牟利組織及政府合作的大型先導項目 — 賽馬會智慧城市樹木管理計劃，運用智能傳感技術及地理資訊系統，大規模監測樹木的穩定性，以適時安排恰當的護養措施，從而延長樹齡。<br /> <br /> 主禮嘉賓包括理大行政副校長盧麗華博士，香港特別行政區發展局常任秘書長韓志強工程師，香港賽馬會慈善事務部主管（長者、康復、醫療、環保及家庭）陳戴英女士和理大建築與環境學院院長徐幼麟教授。",
       link:
         "https://www.polyu.edu.hk/web/tc/media/media_releases/index_id_6551.html",
       detail: "詳情"

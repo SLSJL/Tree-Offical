@@ -7,10 +7,6 @@ export default {
       route: "/tree/index"
     },
     {
-      text: "StoryMap",
-      route: "/tree/storymap"
-    },
-    {
       text: "InfoCard",
       route: "/tree/InfoCard"
     }

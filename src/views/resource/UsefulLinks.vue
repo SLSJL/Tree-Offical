@@ -148,7 +148,6 @@ export default {
     .partner-group {
       width: 100%;
       text-align: left;
-      overflow: auto;
       a {
         margin: 15px 0;
         display: inline-block;

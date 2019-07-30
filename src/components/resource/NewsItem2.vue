@@ -8,7 +8,7 @@
       <p class="res-news-item__year">{{news.date | year}}</p>
     </div>
     <div class="res-news-item__title">
-      <h2>{{news.title | title}}</h2>
+      <h2 :title="news.title">{{news.title | title}}</h2>
       <p>{{news.sourceEng}}</p>
     </div>
   </div>
@@ -37,10 +37,11 @@ export default {
   },
   methods: {
     forward() {
+       let url = this.news.fileName ? this.news.fileName : this.news.address;
       window.open(
-        this.news.fileName.indexOf("http") > -1
-          ? this.news.fileName
-          : this.$utils.tool.getFileUrl() + this.news.fileName,
+        url.indexOf("http") > -1
+          ? url
+          :  this.$utils.tool.getFileUrl() + this.news.fileName,
         "_blank"
       );
     }

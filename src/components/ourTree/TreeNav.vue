@@ -51,9 +51,6 @@ export default {
       transition: all 0.6s;
       color: #fff;
     }
-    li:nth-child(2) {
-      display: none;
-    }
     li:hover,
     li.active {
       background-color: #00877a;

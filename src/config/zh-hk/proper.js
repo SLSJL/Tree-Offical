@@ -15,12 +15,12 @@ export default [
   {
     title: `樹木保護範圍的設計(妥善保護工地的樹木) (2)`,
     content: `<p class="kc-text">由於樹木受損的部分大多無法復原且會不斷累積，因此我們的目標是預防樹木受損害，而不是事後補救。</p>
-    <p class="kc-text">工程範圍內的樹木所面對的威脅主要為泥土受壓、根部損壞和地面高度變化。在整個施工期間應為樹木安裝堅固的防護圍欄，直至工程完成才拆除，以保護樹木。 </p>
+    <p class="kc-text">工程範圍內的樹木所面對的潛在危機主要為泥土受壓、根部損壞和地面高度變化。在整個施工期間應為樹木安裝堅固的防護圍欄，直至工程完成才拆除，以保護樹木。 </p>
     <p class="kc-img">	<img src=${require("./../../assets/images/tree/knowloge/proper/proper3.png")}></p>`
   },
   {
     title: `樹木保護範圍的設計(妥善保護工地的樹木)(3)`,
-    content: `<p class="kc-text">在樹木保護區的圍欄區域內不允許傾倒廢物、存放物料，切根/截枝，挖掘或停泊車輛。</p>
+    content: `<p class="kc-text">在樹木保護區的圍欄區域內不允許傾倒廢物、存放物料、切根/截枝、挖掘或停泊車輛。</p>
     <p class="kc-text">應定期檢查工地內樹木的健康和結構狀況。</p>
     <p class="kc-text">應提醒承包商，根據合同承擔保護施工現場的樹木的責任。如在樹木工程/保護的表現不良，應反映在承包商的表現報告中。</p>
     <p class="kc-img"><img src=${require("./../../assets/images/tree/knowloge/proper/proper4.png")}></p>`
@@ -28,14 +28,14 @@ export default [
   {
     title: `植樹不要過深`,
     content: `
-    <p class="kc-text">如果樹木植根太深，會因根系缺氧而導致樹木日漸衰弱; 可能會出現盤根情況，這會限制樹幹和樹根的生長; 可能難以檢測到樹腳或根脊腐爛; 土壤的水分容易導致樹腳腐爛。</p>
-    <p class="kc-text">樹木不應種植得太深或太淺，以見到根脊為合。 如果樹幹像燈柱一樣立於土中，這棵樹有可能是被種得太深。</p>
+    <p class="kc-text">如果樹木植根太深，會因根系缺氧而導致樹木日漸衰弱; 可能會出現盤根情況，限制樹幹和樹根的生長; 可能難以檢測到樹腳或根脊腐爛; 土壤的水分容易導致樹根腐爛。</p>
+    <p class="kc-text">樹木不應種植得太深或太淺，見到根脊最為合適。 如果樹幹像燈柱一樣立於土中，這棵樹有可能是被種得太深。</p>
     <p class="kc-img">	<img src=${require("./../../assets/images/tree/knowloge/proper/proper5.png")}></p>`
   },
   {
     title: `選植好的樹種 (1)`,
     content: `<p class="kc-text"> 只接受和種植符合合同規範的優質樹種</p>
-          <p class="kc-text">健康和結構的良的樹種具有以下特徵：</p>
+          <p class="kc-text">健康和結構優良的樹種具有以下特徵：</p>
           <p class="kc-sub-text">-	主幹向上收窄(多莖品種除外)</p>
           <p class="kc-sub-text">-	主要枝幹間距適中</p>
           <p class="kc-sub-text">-	沒有等勢莖</p>
@@ -43,7 +43,7 @@ export default [
   },
   {
     title: `選植好的樹種  (2)`,
-    content: `<p class="kc-text">健康和結構的良的樹種具有以下特徵：</p>
+    content: `<p class="kc-text">健康和結構優良的樹種具有以下特徵：</p>
           <p class="kc-sub-text">-	樹冠均稱、葉子正常</p>
           <p class="kc-sub-text">-	活冠比適中 (應大於60%)</p>
           <p class="kc-sub-text">-	泥膽夠大</p>
@@ -59,12 +59,12 @@ export default [
   },
   {
     title: `提供足夠空間讓樹冠生長 (1)`,
-    content: `<p class="kc-text">樹根應有足夠的生長空間，以繫穩樹木，吸收水、氧氣和養分，這樣才能使樹冠均稱生長。樹木之間的距離太狹窄會導致健康狀況和結構不佳可能會導致：</p>
+    content: `<p class="kc-text">樹根應有足夠的生長空間，以繫穩樹木，吸收水、氧氣和養分，這樣才能使樹冠均稱生長。樹木之間的距離太狹窄會導致：</p>
           	<p class="kc-sub-text">-	樹冠之間爭奪生長空間</p>
           	<p class="kc-sub-text">-	樹木無法長出完整和自然的樹冠或突粗壯的樹幹基部，以致樹木結構欠佳</p>
           	<p class="kc-sub-text">-	若樹群中的一棵或數棵樹木枯死，鄰近樹木會容易因風吹和日曬而受損</p>
           	<p class="kc-sub-text">-	更多病蟲問題</p>
-          	<p class="kc-sub-text">-	長遠而言，窒礙樹木生長而出現問題</p>
+          	<p class="kc-sub-text">-	長遠而言，阻礙樹木生長而出現問題</p>
             <p class="kc-img">	<img src=${require("./../../assets/images/tree/knowloge/proper/proper8.png")}></p>`
   },
   {
@@ -75,7 +75,7 @@ export default [
   {
     title: `提供足夠空間讓樹冠生長 (3)`,
     content: `
-    <p class="kc-text">在廣闊的空間種植樹木時，最好留有空間讓樹冠能夠盡量生長。然而，樹木經常被種植以達到某些目的，例如遮擋景物或提供級蔭等。因此亦應靈活處理，因應情況讓部分樹冠適度重疊。</p>
+    <p class="kc-text">在廣闊的空間種植樹木時，最好留有空間讓樹冠能夠盡量生長。然而，樹木經常被種植以達到某些目的，例如遮擋景物或提供級蔭等。因此亦應靈活處理，根據情況讓部分樹冠適度重疊。</p>
     <p class="kc-img">	<img src=${require("./../../assets/images/tree/knowloge/proper/proper10.png")}></p>`
   },
   {
@@ -89,7 +89,7 @@ export default [
 
           <p class="kc-sub-text"><b>對樹木生長的不利影響</b></p>
           <p class="kc-sub-text">-	樹下的植物(地被植物/灌木/雜草)與樹木爭奪泥土裡的水分和養分。</p>
-          <p class="kc-sub-text">-	某止樹下的植物須經常更換 (例如:時花或年生植物)，因而影響和傷及樹根。 </p>
+          <p class="kc-sub-text">-	某些樹下的植物須經常更換 (例如:時花或年生植物)，因而影響和傷及樹根。 </p>
           <p class="kc-sub-text">-	樹下的植物可能需要較頻密地澆水 (例如地被植物和草)，加上樹下種滿植物，令樹木生長環境過濕，助長真菌在樹幹基部滋生。 </p>
           <p class="kc-sub-text">-	蓋土/護根覆蓋過多會令供應至根部的養分減少，導致根部窒息或腐爛。</p>
           <p class="kc-img">	<img src=${require("./../../assets/images/tree/knowloge/proper/proper12.png")}> `
@@ -103,38 +103,38 @@ export default [
   },
   {
     title: `樹基須留有足夠空間，不應栽種植物 (4)`,
-    content: `建議樹幹與植物/護根覆蓋應保留約150至300毫米的距離，具體取決於樹木的及其根脊大小和實地情況而定。但是某些情況下，可能不合適移除樹幹基部周圍的植物，例如移除後可能導致水土流失的斜坡上，並可能妨礙了斜坡植被的自然演替過程。在這種情況下，可能需要選擇性地修剪草木，以便於樹木檢查。在決定應預留多少空間及應如何進行清理時，專業判斷至關重要。</p>
+    content: `建議樹幹與植物/護根覆蓋應保留約150至300毫米的距離，具體取決於樹木及其根脊大小和實地情況而定。但是在某些情況下，可能不適合移除樹幹基部周圍的植物，例如移除後可能導致水土流失的斜坡上，可能妨礙了斜坡植被的自然演替過程。在這種情況下，可能需要選擇性地修剪草木，以便樹木檢查。在決定應預留多少空間及應如何進行清理時，專業判斷至為重要。</p>
     <p class="kc-img">	<img src=${require("./../../assets/images/tree/knowloge/proper/proper13.png")}> `
   },
   {
-    title: `以支撐和拉纜固定樹木  (1)`,
-    content: `<p class="kc-text">以支撐或拉纜固定樹木，是成功植樹和培植初期一個重要的步驟。我們應在有需要時以支撐或拉纜固定樹木(例如在當風地點)，才為樹木提供支撐。有足夠泥膽的健康樹木 (通常已在地威拉纜固位)，則不必額外支撐。</p>`
+    title: `支撐和拉纜固定樹木   (1)`,
+    content: `<p class="kc-text">支撐或拉纜固定樹木，是成功植樹和培植初期的一個重要步驟。我們應在有需要時以支撐或拉纜固定樹木(例如在當風地點)，為樹木提供支撐。有足夠泥膽的健康樹木，則不必額外支撐。</p>`
   },
   {
-    title: `以支撐和拉纜固定樹木 (2)`,
-    content: `<p class="kc-text">樹木的支撐和拉纜固定應妥善進行，以達到理想的效果，否則有機會對公眾和樹木造成傷害。支撐和拉纜固定時應注意以下事項:</p>
+    title: `支撐和拉纜固定樹木  (2)`,
+    content: `<p class="kc-text">樹木的支撐和拉纜固定應妥善進行，以達到理想的效果，否則有可能會對公眾和樹木造成傷害。支撐和拉纜固定時應注意以下事項：</p>
           <p class="kc-sub-text">-	支撐物和拉纜的使用時間不應過長，通常在培植期過後應移走。</p>
           <p class="kc-sub-text">-	支撐物不應插入泥膽，因為這樣或會對樹根造成損害。</p>
           <p class="kc-sub-text">-	定期檢查和調校支撐/拉纜的繫索，避免纏繞樹幹而窒礙樹木生長。</p>
-          <p class="kc-sub-text">	-	盡量避免在種植範圍以外的地方設置支撐物或拉纜錨，因為可能會絆倒途人。</p> 
+          <p class="kc-sub-text">	-	盡量避免在種植範圍以外的地方設置支撐物或拉纜錨，以免絆倒途人。</p> 
           <p class="kc-img">	<img src=${require("./../../assets/images/tree/knowloge/proper/proper14.png")}>`
   },
   {
-    title: `以支撐和拉纜固定樹木 (3)`,
+    title: `支撐和拉纜固定樹木  (3)`,
     content: `<p class="kc-text">支撐樹木的方法:</p>
-    <p class="kc-text">	-	對於小型樹木，使用的支撐物數目（1-3個樁）取決於風向和樹幹直徑。</p>
-    <p class="kc-text">	-	拉纜固定有兩種類型: 第一類型是地面拉纜固定，它有一端位於樹冠上半部分，以及會在繫索上加上警告人們不要絆倒的標籤。 第二類型是地底拉纜固定，它為樹木提供支撐，不會影響人流/車流或露出地面。</p>
+    <p class="kc-text">	-	對於小型樹木，使用的支撐物數目（1-3個）取決於風向和樹幹直徑。</p>
+    <p class="kc-text">	-	拉纜固定有兩種類型: 第一類型是地面拉纜固定，它有一端位於樹冠上半部分，以及會在繫索上加上警告人們不要絆倒的標籤。 第二類型是地底拉纜固定，它為樹木提供支撐，不要露出地面，影響人流/車流。</p>
     <p class="kc-img">	<img src=${require("./../../assets/images/tree/knowloge/proper/proper15.png")}>`
   },
   {
-    title: `以支撐和拉纜固定樹木 (4)`,
+    title: `支撐和拉纜固定樹木  (4)`,
     content: `<p class="kc-text">支撐樹木的方法:</p>
     <p class="kc-text">	-	繫索應在樹木約1/3的位置或在樹木適當的高度以作支撐。</p>
-    <p class="kc-text">	-	支撐物/拉纜可能會限制樹幹擺動和焗 限樹幹和根系的生長，長遠來看會削弱樹木的穩固程度。因此，應盡 盡量少用支撐物。</p>
+    <p class="kc-text">	-	支撐物/拉纜可能會限制樹幹擺動以及樹幹和根系的生長，長遠來看會削弱樹木的穩固程度。因此，應盡 盡量少用支撐物。</p>
     <p class="kc-img">	<img src=${require("./../../assets/images/tree/knowloge/proper/proper16.png")}>`
   },
   {
-    title: `以支撐和拉纜固定樹木 (5)`,
+    title: `支撐和拉纜固定樹木  (5)`,
     content: `<p class="kc-text">支撐樹木的方法:</p>
     <p class="kc-text">	-	拉纜固定樹木時，應選用彈性的繫索，令樹身能夠擺動。</p>
     <p class="kc-text">	-	使用樹柵只能保護樹木避免根部受擠壓，而不能為樹木提供結構性支撐。 如果樹柵的中孔太小，會妨礙樹幹正常生長。</p>

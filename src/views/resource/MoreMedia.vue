@@ -3,7 +3,7 @@
     <Navigation></Navigation>
     <div class="container more-media-section">
       <div class="more-media-header">
-        <h2>All Media List</h2>
+        <h2>{{$t("message.resource.media.allMedia")}}</h2>
         <router-link to="/resource">
           <a class="back-to-resource">&lt; Back</a>
         </router-link>
@@ -73,7 +73,7 @@ export default {
     padding: 15px;
     min-height: 500px;
     background-color: #fff;
-        box-sizing: border-box;
+    box-sizing: border-box;
 
     .more-media-header {
       height: 40px;
@@ -93,7 +93,6 @@ export default {
         align-items: center;
       }
       .back-to-resource {
-        margin: 0 15px;
         font-size: 13px;
         color: #00877a;
         text-decoration: none;

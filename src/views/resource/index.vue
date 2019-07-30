@@ -58,8 +58,6 @@ export default {
 
 @media only screen and (min-width: 48em) and (max-width: 75em) {
   .resource-container {
-    box-sizing: border-box;
-
     .database-sec1 {
       padding: 0 30px;
       box-sizing: border-box;
@@ -68,8 +66,6 @@ export default {
 }
 
 @media only screen and (max-width: 48em) {
-  box-sizing: border-box;
-
   .resource-container {
     .database-sec1 {
       padding: 0 15px;

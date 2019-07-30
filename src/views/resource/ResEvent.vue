@@ -10,10 +10,10 @@
         <p>
           <span v-html="$t('message.resource.event.evt1.body')"></span>
           <br />
-          <a
+          <!-- <a
             target="_blank"
             :href="$t('message.resource.event.evt1.link')"
-          >{{$t("message.resource.event.evt1.detail")}} >></a>
+          >{{$t("message.resource.event.evt1.detail")}} >></a> -->
         </p>
       </div>
 
@@ -90,19 +90,22 @@ export default {
     justify-content: center;
     align-content: center;
   }
+
   .media-first {
     margin-right: 5px;
     width: 520px;
     height: 100%;
     padding: 15px;
+    padding-left: 0;
     box-sizing: border-box;
 
-    h3 {
-      margin: 15px 0;
+    h1 {
+      margin-top:0;
     }
     p {
       font-size: 13px;
       line-height: 24px;
+      text-align: justify;
     }
     button {
       margin: 15px 0;
@@ -142,6 +145,7 @@ export default {
   .media-group {
     margin: 15px 0;
   }
+  
 
   .media-others {
     width: 670px;
@@ -178,7 +182,7 @@ export default {
     }
 
     .media-first {
-      margin-right: 5px;
+      margin-right: 0;
       width: 100%;
       padding: 15px;
       box-sizing: border-box;

@@ -112,7 +112,7 @@ export default {
   policy: {
     breadcrumb: {
       item1: "About Us",
-      item2: "Policy"
+      item2: "Privacy Policy Statement"
     },
     text: {
       p1:

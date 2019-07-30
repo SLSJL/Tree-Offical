@@ -13,9 +13,18 @@
       </div>
 
       <div class="article-content">
-        <p>{{$t("message.aboutus.stage.text.p1")}}</p>
-        <p>{{$t("message.aboutus.stage.text.p2")}}</p>
-        <p>{{$t("message.aboutus.stage.text.p3")}}</p>
+        <p >
+          <span class="stage-caption">{{$t('message.aboutus.stage.text.p1').split(":")[0]}}</span>  	
+          <span  class="stage-body">{{$t('message.aboutus.stage.text.p1').split(":")[1]}}</span>  	
+        </p>
+        <p>
+          <span  class="stage-caption">{{$t('message.aboutus.stage.text.p2').split(":")[0]}}</span>  	
+          <span  class="stage-body">{{$t('message.aboutus.stage.text.p2').split(":")[1]}}</span>  	
+        </p>
+        <p>
+          <span  class="stage-caption">{{$t('message.aboutus.stage.text.p3').split(":")[0]}}</span>  	
+          <span  class="stage-bdoy">{{$t('message.aboutus.stage.text.p3').split(":")[1]}}</span>  	
+        </p>
         <img :src="projectStage" alt="porject stage" />
       </div>
     </div>
@@ -105,6 +114,14 @@ export default {
       color: #606060;
       line-height: 24px;
       text-align: justify;
+      display: flex;
+      span.stage-caption{
+        width: 100px;
+        text-align: center;
+      }
+      span.stage-body{
+        flex:1;
+      }
     }
     img {
       width: 80%;

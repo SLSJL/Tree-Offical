@@ -1,7 +1,7 @@
 export default [
   {
     title: `綠化的好處  (1)`,
-    content: `<p class="kc-text">通過豐富多彩的樹木、灌木、花卉以及一系列合理分佈和精心配置的城市綠化建設，不但能營造清新美麗、舒適優雅的環境，還可以改善城市生活條件，提高生活質量。</p>
+    content: `<p class="kc-text">通過豐富美觀的樹木、灌木、花卉以及一系列合理分佈和精心配置的城市綠化建設，不但能營造清新美麗、舒適優雅的環境，還可以改善城市生活條件，提高生活質量。</p>
               <p class="kc-text">歡迎訪問:</p>
               <p class="kc-text"><a href="https://www.greening.gov.hk/tc/people_trees_harmony/benefits_greening.html" target="_blank">https://www.greening.gov.hk/tc/people_trees_harmony/benefits_greening.html</a></p>`
   },

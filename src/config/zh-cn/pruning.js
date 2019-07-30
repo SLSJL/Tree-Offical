@@ -16,17 +16,17 @@ export default [
     <p class="kc-sub-text">- 切勿留下鋸齒狀的傷口</p>
     <p class="kc-sub-text">- 切勿扯脫樹皮</p>
     <p class="kc-sub-text">- 避免平貼樹幹切斷  </p>
-    <p class="kc-sub-text">- 切勿獅尾式修剪 </p>
-    <p class="kc-sub-text">- 切勿過份提升樹冠</p>
+    <p class="kc-sub-text">- 切勿狮尾式修剪 </p>
+    <p class="kc-sub-text">- 切勿过分提升树冠</p>
     <p class="kc-img">	<img src=${require("./../../assets/images/tree/knowloge/prunning/prunning3.png")}></p>
     `
   },
   {
     title: `修剪树木的类别 (1)`,
     content: `<p class="kc-sub-title">树型修剪</p>
-      <p class="kc-text"> -	选择性地修剪年幼树木的横枝，使树身强壮挺立、树冠平衡匀称， 而且树枝分布平均、中央顶枝清楚分明。</p>
+      <p class="kc-text"> -	选择性地修剪年幼树木的横枝，使树身强壮挺立、树冠平衡匀称， 而且树枝分布均匀、中央顶枝清晰分明。</p>
       <p class="kc-sub-title">提升树冠</p>
-      <p class="kc-text">- 选择性地修剪较低的树枝，藉此增加地面与枝叶的垂直空间距离。</p>
+      <p class="kc-text">- 选择性地修剪较低的树枝，增加地面与枝叶的垂直空间距离。</p>
      <p class="kc-img"><img src=${require("./../../assets/images/tree/knowloge/prunning/prunning4.png")}></p>
       `
   },
@@ -36,7 +36,7 @@ export default [
     <p class="kc-text">-	选择性地修剪树枝，以减少整个树冠的高度和伸展范围，保持树木外形匀称得宜、外观自然优美。</p>
     <p class="kc-img"><img src=${require("./../../assets/images/tree/knowloge/prunning/prunning1.png")}></p>
     <p class="kc-sub-title">树冠疏枝</p>
-    <p class="kc-text">- 选择性地修剪树枝， 以清除树上交迭枝、弱枝和枯枝残枒，以减低树叶密度。树冠疏枝工作不应影响树木的整体高度和伸展范围。</p>
+    <p class="kc-text">- 选择性地修剪树枝， 以清除树上交迭枝、弱枝和枯枝残芽，以减低树叶密度。树冠疏枝工作不应影响树木的整体高度和伸展范围。</p>
     <p class="kc-img">	<img src="${require("./../../assets/images/tree/knowloge/prunning/prunning2.png")}"></p>
     <p class="kc-sub-title">清理树冠</p>
     <p class="kc-text">- 选择性地修剪树枝，以清除树上的枯枝、残枒、受损或有病的树枝。</p>
