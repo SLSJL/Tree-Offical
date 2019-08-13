@@ -98,12 +98,12 @@ export default {
       color: #303030;
 
       h1 {
-        padding: 5rem 3rem;
+        padding: 5rem 1.5rem;
 
         margin-bottom: 0;
         width: 100%;
-        font-size: 3em;
-        line-height: 4rem;
+        font-size: 2.4em;
+        line-height: 5rem;
         text-align: center;
 
         b {

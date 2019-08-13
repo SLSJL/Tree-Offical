@@ -40,7 +40,6 @@ export default {
   border-bottom: 0.8rem solid #f7cb3b;
   width: 100%;
   height: 100%;
-  min-height: 90rem;
   background-position: center;
   background-size: 100% auto;
   background-image: url("./../../assets/images/home/home-bg-2.jpg");
@@ -125,8 +124,8 @@ export default {
           width: 100%;
 
           h1 {
-            font-family: "Roboto-Condensed";
             padding-bottom: 15rem;
+            text-align: left;
           }
         }
 
@@ -149,13 +148,13 @@ export default {
           width: 100%;
 
           h1 {
-            font-family: "Roboto-Condensed";
-            padding: 0 3rem;
+            padding: 0 1.5rem;
             padding-bottom: 6rem;
 
-            line-height: 6rem;
-            font-size: 3em;
-            text-align: center;
+            line-height: 5rem;
+            font-size: 2.8em;
+            text-align: left;
+
           }
         }
 

@@ -23,7 +23,7 @@
         </p>
         <p>
           <span  class="stage-caption">{{$t('message.aboutus.stage.text.p3').split(":")[0]}}</span>  	
-          <span  class="stage-bdoy">{{$t('message.aboutus.stage.text.p3').split(":")[1]}}</span>  	
+          <span  class="stage-body">{{$t('message.aboutus.stage.text.p3').split(":")[1]}}</span>  	
         </p>
         <img :src="projectStage" alt="porject stage" />
       </div>

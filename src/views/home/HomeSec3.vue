@@ -1,12 +1,10 @@
 <template>
   <div class="container-fluid home-section-3">
     <div class="home-p3-content">
-      <h1 v-html="$t('message.home.sec3')">
-
-      </h1>
+      <h1 v-html="$t('message.home.sec3')"></h1>
     </div>
     <div class="home-p3-image">
-      <img :src="require('./../../assets/images/home/oursensor@2x.png')"  @click="navigate" alt>
+      <img :src="require('./../../assets/images/home/oursensor@2x.png')" @click="navigate" alt />
     </div>
   </div>
 </template>
@@ -102,18 +100,17 @@ export default {
   .home-section-3 {
     flex-direction: column;
     height: auto;
-
     .home-p3-content {
       flex: 1;
       height: auto;
       color: #303030;
 
       h1 {
-        padding: 5rem 3rem;
+        padding: 5rem 1.5rem;
         margin-bottom: 0;
         width: 100%;
-        font-size: 3em;
-        line-height: 4rem;
+        font-size: 2.4em;
+        line-height: 5rem;
         text-align: center;
 
         b {

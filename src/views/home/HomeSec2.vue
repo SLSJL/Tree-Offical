@@ -91,11 +91,15 @@ export default {
     height: auto;
 
     .home-p1-image {
-      padding: 3rem 2.5rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+
       width: 100%;
       height: auto;
       box-sizing: border-box;
-      line-height: 4rem;
+      line-height: 5rem;
 
       img {
         width: 100%;
@@ -104,14 +108,23 @@ export default {
 
     .home-p1-text {
       h1 {
-        padding: 5rem 3rem;
-        padding: 3rem 2.5rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
 
         margin-bottom: 0;
         width: 100%;
-        font-size: 3em;
-        line-height: 4rem;
+        font-size: 2.4em;
+        line-height: 5rem;
         text-align: center;
+        b{
+          font-size: 2.4rem !important;
+        }
       }
     }
   }

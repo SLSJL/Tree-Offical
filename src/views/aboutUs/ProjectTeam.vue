@@ -129,7 +129,7 @@ export default {
         margin: 1.5rem 0;
         display: inline-block;
         width: 100%;
-        text-align: center;
+        text-align: left;
         img {
           max-width: 80%;
         }

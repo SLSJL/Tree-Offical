@@ -61,9 +61,7 @@ export default {
 @media only screen and (min-width: 48em) and (max-width: 75em) {
   .our-tree-nav {
     ul {
-      li:nth-child(2) {
-        display: none;
-      }
+
     }
   }
 }
@@ -76,9 +74,7 @@ export default {
       li {
         width: 50%;
       }
-      li:nth-child(2) {
-        display: none;
-      }
+
     }
   }
 }

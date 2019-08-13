@@ -21,15 +21,20 @@ export default {
   data() {
     return {
       publications: [
+                {
+          imgPath: require("./../../assets/images/resouce/GIS.jpg"),
+          caption: "GIS.v8",
+          pdfPath: "publications/GIS.v8.pdf"
+        },
         {
           imgPath: require("./../../assets/images/resouce/Public1.png"),
           caption: "publication_Feb 2019_p74_77.pdf",
-          pdfPath: "publication_Feb.pdf"
+          pdfPath: "publications/publication_Feb.pdf"
         },
         {
           imgPath: require("./../../assets/images/resouce/Public2.png"),
           caption: "香港理工大學企業發展院 - 技術前沿",
-          pdfPath: "PolyUA.pdf"
+          pdfPath: "publications/PolyUA.pdf"
         }
       ]
     };

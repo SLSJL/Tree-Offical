@@ -20,6 +20,7 @@
         <p>
           <br />
           <span class="link-name">{{$t("message.tree.details.p4.body2.item1")}}</span>
+          <br />
           <span class="links-addr">
             <a
               class="links-addr"
@@ -29,6 +30,7 @@
           </span>
           <br />
           <span class="link-name">{{$t("message.tree.details.p4.body2.item2")}}</span>
+          <br/>
           <a
             class="links-addr"
             target="_blank"
@@ -36,6 +38,7 @@
           >https://www.herbarium.gov.hk/subpages.aspx?id=8057</a>
           <br />
           <span class="link-name">{{$t("message.tree.details.p4.body2.item3")}}</span>
+          <br />
           <a
             class="links-addr"
             target="_blank"
@@ -155,13 +158,11 @@ export default {
       line-height: 24px;
       // word-break: break-all;
 
-      span.link-name {
-        display: inline-block;
-        min-width: 200px;
-        font-weight: 600;
-      }
+
       a {
+        width: 100%;
         color: #00877a;
+        word-break: break-all;
       }
     }
     p.quote {
@@ -306,11 +307,6 @@ export default {
         font-size: 1.4rem;
         box-sizing: border-box;
 
-        span.link-name {
-          display: inline-block;
-          min-width: 200px;
-          font-weight: 600;
-        }
         a {
           color: #00877a;
         }

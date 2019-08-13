@@ -127,7 +127,7 @@ export default {
         text-align: left;
 
         img {
-          max-width: 60%;
+          height: 60px;
         }
       }
       a.large {
