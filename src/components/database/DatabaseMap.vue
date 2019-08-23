@@ -60,21 +60,21 @@ export default {
               key: "t_001_001",
               label: "Tai Tang",
               lyrUrl:
-                "http://158.132.186.221:6080/arcgis/rest/services/Tree/Tree/MapServer/2",
+                "http://47.91.133.30:6080/arcgis/rest/services/Tree/Tree/MapServer/2",
               lyr: null
             },
             {
               key: "t_001_002",
               label: "Wan Chai",
               lyrUrl:
-                "http://158.132.186.221:6080/arcgis/rest/services/Tree/Tree/MapServer/1",
+                "http://47.91.133.30:6080/arcgis/rest/services/Tree/Tree/MapServer/1",
               lyr: null
             },
             {
               key: "t_001_003",
               label: "Kowloon Bay",
               lyrUrl:
-                "http://158.132.186.221:6080/arcgis/rest/services/Tree/Tree/MapServer/0",
+                "http://47.91.133.30:6080/arcgis/rest/services/Tree/Tree/MapServer/0",
               lyr: null
             }
           ]
