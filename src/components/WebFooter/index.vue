@@ -2,6 +2,9 @@
   <div class="container-fluid">
     <div class="web-footer-infobar">
       <div class="gp-wrap">
+        <p>
+          <span>Funded by</span>
+        </p>
         <img class="jc-logo" :src="require('./../../assets/images/home/hkjc.png')" alt />
         <p>
           Copyright © 2018 - 2019. Jockey Club Smart City Tree Management Project,
@@ -68,7 +71,12 @@ export default {
     margin: 3rem;
     text-align: left;
     color: #fff;
-
+    span {
+      border-radius: 4px;
+      padding: 2px 5px;
+      color: #fff;
+      background-color: #ffae00;
+    }
     .jc-logo {
       margin-bottom: 3rem;
       height: 6.5rem;
