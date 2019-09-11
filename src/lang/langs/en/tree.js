@@ -15,7 +15,7 @@ export default {
     p1: {
       caption: "CURRENT SITUATION FOR URBAN TREES",
       body:
-        "Urban trees expose to high risk of growth due to insufficient growing space, poor soil, bad or lack of maintenance and the increasing frequency of rainstorms and typhoons due to global climate. Some tree species are even affected so badly as they are more vulnerable to extreme bad weather conditions."
+        "Current situation for urban trees: Urban trees are exposed to high risk due to insufficient growth space due to insufficient growing space, poor soil, bad or lack of maintenance and the increasing frequency of rainstorms and typhoons due to global climate. Some tree species are even affected so badly as they are more vulnerable to extreme bad weather conditions."
     },
     p2: {
       caption: "ECOSYSTEM SERVICES",
@@ -27,7 +27,7 @@ export default {
     p3: {
       caption: "TECHNOLOGY HELPS TREE MANAGEMENT",
       body:
-        "Many studies have been conducted to measure tree displacement via a wide spectrum of quantifiable tools. They help measure the rotational angle, tree displacement or tilting angle due to the overturning momentum of a tree. Whilst the use of the accelerometer for measuring tree tilting is not new, the sensor technology can measure the mechanical response of a tree to wind force, record the tilting values at near ground level and provide an insightful strength of root anchorage. It is also important to study the failure pattern of different tree species on the root response towards adverse weather conditions. In addition, monitoring root plate rotation on a regular basis would enable an early warning system in tree management to reduce the risk of damage caused by root failure."
+        "Many studies have been conducted to measure tree displacement via a wide spectrum of quantifiable tools. They help measure the rotational angle, tree displacement or tilting angle due to the overturning momentum of a tree. Whilst the use of the accelerometer for measuring tree tilting is not new, the sensor technology can measure the mechanical response of a tree to wind force, record the tilting values at near ground level and provide an insightful strength of root anchorage. It is also important to study the failure pattern of different tree species on the root response towards adverse weather conditions. In addition, monitoring root plate rotation on a regular basis would enable an early warning system in tree management be set up to assist in reducing the risk of damage caused by root failure."
     },
     p4: {
       caption: "OUR MONITORING LIST",

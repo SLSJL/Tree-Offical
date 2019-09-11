@@ -71,7 +71,7 @@ export default {
 
     .jc-logo {
       margin-bottom: 3rem;
-      height: 9rem;
+      height: 6.5rem;
     }
 
     p {

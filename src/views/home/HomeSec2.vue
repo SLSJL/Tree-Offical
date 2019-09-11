@@ -58,6 +58,18 @@ export default {
   }
 }
 
+@media only screen and (min-width: 75em) and (max-width: 136em) {
+  .home-section-2 {
+    .home-p1-text {
+      h1 {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-size: 3.6em;
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 48em) and (max-width: 75em) {
   .home-section-2 {
     height: 320px;
@@ -122,7 +134,7 @@ export default {
         font-size: 2.4em;
         line-height: 5rem;
         text-align: center;
-        b{
+        b {
           font-size: 2.4rem !important;
         }
       }

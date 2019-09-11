@@ -54,8 +54,8 @@ export default {
       p1:
         "Through the collaboration of the cross- disciplines professions, including academia, green NGOs, and the government, our project is aiming at",
       p2:
-        "Developing a set of SST that can conduct monitoring on Hong Kong’s most vulnerable urban tree species",
-      p3: "Building a database to monitor trees condition using GIS-platform",
+        "Developing a set of Smart Sensing Technology that can conduct monitoring on Hong Kong’s most vulnerable urban tree species",
+      p3: "Building a database to monitor trees condition using Geographic Information System platform",
       p4:
         "Providing analysis on threshold criteria of trees by considering bio-physical factors of trees and the environmental conditions in urban areas",
       p5:

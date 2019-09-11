@@ -1,7 +1,6 @@
 <template>
   <div class="database-map-wrap">
     <div class="container-fluid" id="database-map"></div>
-
     <!-- <div class="datamap-map-layers">
       <div class="layer-switch-gp">
         <ul>
@@ -19,9 +18,9 @@
         >
           <i class="el-icon-caret-bottom"></i>
         </el-button>
-      </div> -->
+    </div>-->
 
-      <!-- <div class="layer-tree" v-if="showLayers">
+    <!-- <div class="layer-tree" v-if="showLayers">
         <el-tree
           :data="mapTreeCfg"
           :node-key="'key'"
@@ -29,7 +28,7 @@
           :default-checked-keys="defaultChecks"
           @check-change="checkStatus"
         ></el-tree>
-      </div> -->
+    </div>-->
     <!-- </div> -->
   </div>
 </template>

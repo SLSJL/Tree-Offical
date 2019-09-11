@@ -112,6 +112,44 @@ export default {
     }
   }
 }
+@media only screen and (min-width: 75em) and (max-width: 136em) {
+  .home-section-1 {
+    background-size: 100% auto;
+    .wrap {
+      .content {
+        .abstract {
+          h1 {
+            padding-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 48em) and (max-width: 75em) {
+  .home-section-1 {
+    background-size: auto 100%;
+    border-bottom: 0.6rem solid #f7cb3b;
+
+    .wrap {
+      .content {
+        .abstract {
+          width: 100%;
+
+          h1 {
+            padding-bottom: 15rem;
+            text-align: left;
+          }
+        }
+
+        .modules-shortcut {
+          display: none;
+        }
+      }
+    }
+  }
+}
 
 @media only screen and (min-width: 48em) and (max-width: 75em) {
   .home-section-1 {
@@ -154,7 +192,6 @@ export default {
             line-height: 5rem;
             font-size: 2.8em;
             text-align: left;
-
           }
         }
 
