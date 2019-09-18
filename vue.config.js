@@ -1,7 +1,6 @@
 const CompressionWebpackPlugin = require("compression-webpack-plugin");
 
 module.exports = {
-  publicPath: "/tree/",
   configureWebpack: config => {
     if (process.env.NODE_ENV === "production") {
       // 去掉 console.log
