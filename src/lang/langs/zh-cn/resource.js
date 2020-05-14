@@ -250,6 +250,12 @@ export default {
     caption: "影片剪辑",
     list: [
       {
+        title: "赛马会智慧城市树木管理项目-项目简介",
+        address:
+          "https://youtu.be/-FPpurk-PUM",
+        date: "21-April-2020"
+      },
+      {
         title: "Smart LAB launched",
         address:
           "https://sc.news.gov.hk/TuniS/www.news.gov.hk/chi/2019/05/20190530/20190530_172905_525.html?tdsourcetag=s_pctim_aiomsg",
