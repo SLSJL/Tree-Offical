@@ -34,7 +34,7 @@
     "image-webpack-loader": "^6.0.0",
     "less": "^3.11.1",
     "less-loader": "^4.1.0",
-    "npm": "^6.14.5",
+    "npm": "^6.14.6",
     "terser": "^4.8.0",
     "vue-template-compiler": "^2.6.11"
   }
