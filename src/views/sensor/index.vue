@@ -142,6 +142,7 @@ export default {
           }
 
           ul {
+            display: none;
             margin-top: 30px;
             li {
               display: inline-block;
@@ -170,22 +171,24 @@ export default {
 
     .sensor-sec-1 {
       width: 100%;
-      height: 100%;
+      background-size: 100% 100%;
 
       .mask {
         .introduction {
           width: 100%;
-          margin-top: 12rem;
+          margin-top: 60px;
           margin-left: 0;
           margin-right: 0;
 
           h1 {
-            margin-bottom: 3rem;
+            margin-bottom: 1.5rem;
             text-align: center;
           }
+
           p {
             padding: 0 3rem;
             font-size: 1.4rem;
+            line-height: 22px;
             text-align: justify;
             box-sizing: border-box;
           }
@@ -195,6 +198,7 @@ export default {
           }
 
           ul {
+            display: none;
             margin-top: 30px;
             padding: 0 3rem;
 

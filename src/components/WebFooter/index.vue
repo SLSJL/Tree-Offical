@@ -5,9 +5,14 @@
         <p>
           <span>Funded by</span>
         </p>
-        <img class="jc-logo" :src="require('./../../assets/images/home/hkjc.png')" alt />
+        <img
+          class="jc-logo"
+          :src="require('./../../assets/images/home/hkjc.png')"
+          alt
+        />
         <p>
-          Copyright © 2018 - 2019. Jockey Club Smart City Tree Management Project,
+          Copyright © 2018 - 2019. Jockey Club Smart City Tree Management
+          Project,
           <br />The Hong Kong Polytechnic University. All rights reserved.
         </p>
       </div>
@@ -16,10 +21,9 @@
         <h3>ADDRESS</h3>
         <p>
           The Department of Land Surveying and Geo-Informatics,
-          <br />The Hong Kong Polytechnic University,
-          <br />Room ZB213, South Wing, Block Z, Phase 8,
-          <br />181 Chatham Road South,
-          <br />Hung Hom, Kowloon, Hong Kong.
+          <br />The Hong Kong Polytechnic University, <br />Room ZB213, South
+          Wing, Block Z, Phase 8, <br />181 Chatham Road South, <br />Hung Hom,
+          Kowloon, Hong Kong.
         </p>
       </div>
 
@@ -41,8 +45,7 @@
         <h3>CONTACT</h3>
         <p>
           TEL (852) 2766-4655
-          <br />FAX (852) 2330-2994
-          <br />EMAIL jcsmarttree@gmail.com
+          <br />FAX (852) 2330-2994 <br />EMAIL jcsmarttree@gmail.com
         </p>
       </div>
     </div>
@@ -50,7 +53,7 @@
 </template>
 <script>
 export default {
-  name: "homeSec4"
+  name: "homeSec4",
 };
 </script>
 
@@ -142,6 +145,11 @@ export default {
       p {
         font-size: 13px;
         line-height: 20px;
+      }
+
+      .jc-logo {
+        height: auto;
+        width: 80%;
       }
     }
   }

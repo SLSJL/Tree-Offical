@@ -2,33 +2,32 @@
   <div class="res-news-item" @click="forward">
     <div class="res-news-item__datetime">
       <p class="res-news-item__daymonth">
-        <span>{{news.date | day}}</span>
-        <span>{{news.date | month}}</span>
+        <span>{{ news.date | day }}</span>
+        <span>{{ news.date | month }}</span>
       </p>
-      <p class="res-news-item__year">{{news.date | year}}</p>
+      <p class="res-news-item__year">{{ news.date | year }}</p>
     </div>
     <div class="res-news-item__title">
-      <h2 :title="news.title">{{news.title | title}}</h2>
+      <h2 :title="news.title">
+        {{ news.title | title }} <img v-if="news.isNew" :src="require('@/assets/images/resouce/new.png')" alt="new" />
+      </h2>
     </div>
   </div>
 </template>
 <script>
 export default {
-  name: "resouce-newws-item",
+  name: "resouce-news-item",
   props: {
     news: {
-      type: Object
-    }
+      type: Object,
+    },
   },
   methods: {
     forward() {
       let url = this.news.fileName ? this.news.fileName : this.news.address;
 
-      window.open(
-        url.indexOf("http") > -1 ? url : this.$utils.tool.getFileUrl() + url,
-        "_blank"
-      );
-    }
+      window.open(url.indexOf("http") > -1 ? url : this.$utils.tool.getFileUrl() + url, "_blank");
+    },
   },
   filters: {
     year(date) {
@@ -41,9 +40,12 @@ export default {
       return date.split("-")[0];
     },
     title(val) {
-      return val.length > 19 ? val.substr(0, 18) + "..." : val;
-    }
-  }
+      let reg = new RegExp('[\\u4E00-\\u9FFF]','g')
+      let n = reg.test(val) ? 19 : 36;
+      console.log(reg.test(val));
+      return val.length > n ? val.substr(0, n - 1) + "..." : val;
+    },
+  },
 };
 </script>
 <style lang="less" scoped>
@@ -86,6 +88,9 @@ export default {
     text-align: left;
     h2 {
       transition: all 0.6s;
+      img {
+        vertical-align: middle;
+      }
     }
   }
 }

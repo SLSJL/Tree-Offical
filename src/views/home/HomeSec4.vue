@@ -32,8 +32,9 @@ export default {
   .home-p4-image {
     width: 80rem;
     height: 100%;
+    text-align: left;
     img {
-      width: 100%;
+      height: 100%;
       cursor: pointer;
     }
   }
@@ -133,7 +134,8 @@ export default {
       height: auto;
       box-sizing: border-box;
       img {
-        height: 100%;
+        width: 100%;
+        height: auto;
       }
     }
   }

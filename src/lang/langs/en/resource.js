@@ -3,10 +3,8 @@ export default {
     caption: "Press Release",
     list: [
       {
-        title:
-          "PolyU to apply smart sensing technology in urban tree management",
-        address:
-          "https://www.polyu.edu.hk/web/en/media/media_releases/index_id_6551.html",
+        title: "PolyU to apply smart sensing technology in urban tree management",
+        address: "https://www.polyu.edu.hk/web/en/media/media_releases/index_id_6551.html",
         date: "4-Jun-2018",
       },
     ],
@@ -21,8 +19,7 @@ export default {
           sourceEng: "Commercial Radio Hong Kong",
           SourceCn: "香港商業電台",
           title: "智慧政府創新實驗室開幕為政府部門和科技業界配對",
-          address:
-            "http://www.881903.com/Page/ZH-TW/newsdetail.aspx?csid=261_341&itemid=1111155",
+          address: "http://www.881903.com/Page/ZH-TW/newsdetail.aspx?csid=261_341&itemid=1111155",
         },
         {
           date: "31-May-2019",
@@ -37,8 +34,7 @@ export default {
           sourceEng: "Sky Post",
           SourceCn: "晴報",
           title: "創新實驗室開幕 搖動模型測塌樹危機",
-          address:
-            "https://skypost.ulifestyle.com.hk/article/2365737/創新實驗室開幕%20搖動模型測塌樹危機",
+          address: "https://skypost.ulifestyle.com.hk/article/2365737/創新實驗室開幕%20搖動模型測塌樹危機",
         },
         {
           date: "31-May-2019",
@@ -54,8 +50,7 @@ export default {
           sourceEng: "The Standard",
           SourceCn: "英文虎報",
           title: "World first as tree sensors hold sway",
-          address:
-            "http://www.thestandard.com.hk/section-news.php?id=208231&sid=4",
+          address: "http://www.thestandard.com.hk/section-news.php?id=208231&sid=4",
         },
         {
           date: "31-May-2019",
@@ -84,8 +79,7 @@ export default {
           date: "30-May-2019",
           sourceEng: "Headline Daily",
           SourceCn: "頭條日報",
-          title:
-            "智慧政府創新實驗室開幕 配對政府部門及初創企業推動資訊科技應用",
+          title: "智慧政府創新實驗室開幕 配對政府部門及初創企業推動資訊科技應用",
           address: "https://hd.stheadline.com/news/realtime/hk/1512163/",
         },
         {
@@ -107,10 +101,8 @@ export default {
           date: "30-May-2019",
           sourceEng: "HKSAR Press Release",
           SourceCn: "香港政府新聞公報",
-          title:
-            "全新智慧政府創新實驗室與業界共創嶄新方案 提升公共服務質素（附圖）",
-          address:
-            "https://www.news.gov.hk/chi/2019/05/20190530/20190530_172905_525.html",
+          title: "全新智慧政府創新實驗室與業界共創嶄新方案 提升公共服務質素（附圖）",
+          address: "https://www.news.gov.hk/chi/2019/05/20190530/20190530_172905_525.html",
         },
         {
           date: "30-May-2019",
@@ -118,8 +110,7 @@ export default {
           SourceCn: "香港政府新聞公報",
           title:
             "New Smart LAB co-creates innovative IT solutions with industry to enhance public services (with photos)",
-          address:
-            "https://www.news.gov.hk/eng/2019/05/20190530/20190530_172905_525.html",
+          address: "https://www.news.gov.hk/eng/2019/05/20190530/20190530_172905_525.html",
         },
         {
           date: "30-May-2019",
@@ -143,16 +134,14 @@ export default {
           sourceEng: "Oriental Daily News (Hong Kong)",
           SourceCn: "東網",
           title: "智慧創新實驗室開幕　展樹木搖動監控測樹榻危機",
-          address:
-            "https://orientaldaily.on.cc/cnt/news/20190531/00176_021.html",
+          address: "https://orientaldaily.on.cc/cnt/news/20190531/00176_021.html",
         },
         {
           date: "30-May-2019",
           sourceEng: "RTHK",
           SourceCn: "香港電台",
           title: "智慧政府創新實驗室開幕 冀助提升公共服務質素與效率",
-          address:
-            "https://news.rthk.hk/rthk/ch/component/k2/1460148-20190530.htm",
+          address: "https://news.rthk.hk/rthk/ch/component/k2/1460148-20190530.htm",
         },
         {
           date: "30-May-2019",
@@ -249,15 +238,19 @@ export default {
     caption: "Video Clippings",
     list: [
       {
-        title:
-          "Jockey Club Smart City Tree Management Project - Project Introduction",
+        title: "Video for JC Smart Tree Dashboard",
+        address: "https://youtu.be/4MyjaU2fw18",
+        date: "18-June-2020",
+        isNew: true
+      },
+      {
+        title: "Jockey Club Smart City Tree Management Project - Project Introduction",
         address: "https://youtu.be/-FPpurk-PUM",
         date: "21-April-2020",
       },
       {
         title: "Smart LAB launched",
-        address:
-          "https://www.news.gov.hk/eng/2019/05/20190530/20190530_172905_525.html?tdsourcetag=s_pctim_aiomsg",
+        address: "https://www.news.gov.hk/eng/2019/05/20190530/20190530_172905_525.html?tdsourcetag=s_pctim_aiomsg",
         date: "30-May-2018",
       },
       {
@@ -277,14 +270,12 @@ export default {
   event: {
     caption: "Event & Activity",
     evt1: {
-      title:
-        "Jockey Club Smart City Tree Management Project Kick-off Ceremony (14 June 2018)",
+      title: "Jockey Club Smart City Tree Management Project Kick-off Ceremony (14 June 2018)",
       body: `The Hong Kong Polytechnic University (PolyU) today (14 June) kicked off the Jockey Club Smart City Tree Management Project, a large-scale pilot project in Hong Kong, with the support from academia, non-government organisations (NGOs) and the Government, to apply smart sensing technology (SST) and Geographic Information Systems (GIS) for monitoring tree stability to enhance timely appropriate mitigation measures for sustaining longer tree lives. <br /> <br />Officiating guests included PolyU’s Executive Vice President, Dr Miranda Lou, the Permanent Secretary for Development (Works) of the HKSAR Development Bureau, Ir Chi-keung Hon, JP, the Head of Charities (Grant Making-Elderly, Rehabilitation, Medical, Environment &
           Family) of The Hong Kong Jockey Club, Ms Imelda Chan, and PolyU’s Dean of the Faculty of Construction
           and Environment, Prof. You-Lin Xu.`,
 
-      link:
-        "https://www.polyu.edu.hk/web/en/media/media_releases/index_id_6551.html",
+      link: "https://www.polyu.edu.hk/web/en/media/media_releases/index_id_6551.html",
       detail: "Details",
     },
   },

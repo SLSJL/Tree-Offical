@@ -4,19 +4,19 @@
     <div class="media-mask" v-if="mask">
       <img src alt />
     </div>
-    <div :class="['text-info', {isVideo: mask} ]">
+    <div :class="['text-info', { isVideo: mask }]">
       <!-- <h5>{{title}}</h5> -->
     </div>
   </div>
 </template>
 <script>
 export default {
-  name: "MediaItem",
+  name: "media-item",
   props: {
     mask: { type: Boolean },
     imgPath: { type: String },
-    title: { type: String }
-  }
+    title: { type: String },
+  },
 };
 </script>
 <style lang="less" scoped>

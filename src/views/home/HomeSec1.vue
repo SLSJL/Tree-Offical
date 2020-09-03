@@ -6,17 +6,53 @@
         <section class="abstract">
           <!-- 内容 -->
           <h1 v-html="$t('message.home.sec1')"></h1>
+          <div class="abstract-app-btns">
+            <p>
+              <b>Mobile Application: </b>
+              <el-button
+                class="abstract-app-video"
+                type="text"
+                @click="watchVideo"
+              >
+                WATCH VIDEO <i class="el-icon-video-camera-solid"></i
+              ></el-button>
+              and DOWNLOAD from HERE
+            </p>
+            <el-button
+              class="abstract-app-btn"
+              type="success"
+              plain
+              @click="goAppStore"
+              >APP STORE</el-button
+            >
+            <el-button
+              class="abstract-app-btn"
+              type="success"
+              plain
+              @click="goGooglePlay"
+              >GOOGLE PLAY</el-button
+            >
+          </div>
         </section>
         <section class="modules-shortcut">
           <ul class="shortcut-wrap">
             <li>
-              <img :src="require('./../../assets/images/home/home-thumb-1@2x.png')" alt />
+              <img
+                :src="require('./../../assets/images/home/home-thumb-1@2x.png')"
+                alt
+              />
             </li>
             <li>
-              <img :src="require('./../../assets/images/home/home-thumb-2@2x.png')" alt />
+              <img
+                :src="require('./../../assets/images/home/home-thumb-2@2x.png')"
+                alt
+              />
             </li>
             <li>
-              <img :src="require('./../../assets/images/home/home-thumb-3@2x.png')" alt />
+              <img
+                :src="require('./../../assets/images/home/home-thumb-3@2x.png')"
+                alt
+              />
             </li>
           </ul>
         </section>
@@ -30,8 +66,21 @@ import Navigation from "./../../components/navigation/";
 export default {
   name: "homeSec1",
   components: {
-    Navigation
-  }
+    Navigation,
+  },
+  methods: {
+    goAppStore() {
+      window.location.href =
+        "https://apps.apple.com/cn/app/hkjc-smart-tree/id1473986069?l=en";
+    },
+    goGooglePlay() {
+      window.location.href =
+        "https://play.google.com/store/apps/details?id=com.hkjctree&hl=en_US";
+    },
+    watchVideo() {
+      window.location.href = "https://youtu.be/qEDjEs6Zhr8";
+    },
+  },
 };
 </script>
 
@@ -66,8 +115,9 @@ export default {
 
       .abstract {
         display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
         width: 60%;
         height: 100%;
 
@@ -81,6 +131,36 @@ export default {
           font-weight: 100;
 
           text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        }
+        .abstract-app-btns {
+          padding-left: 8rem;
+          p {
+            font-size: 1.8rem;
+            text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+            span {
+              padding: 0.2rem 0.8rem;
+              background-color: #dda900;
+              text-shadow: none;
+            }
+          }
+          .abstract-app-btn {
+            margin-right: 1rem;
+            padding: 1.5rem 3rem;
+            font-size: 1.8rem;
+            background-color: transparent;
+            color: #ffffff;
+          }
+          .abstract-app-video {
+            font-size: 1.8rem;
+            color: #ffffff;
+            text-decoration: underline;
+            i {
+              font-size: 2.4rem;
+            }
+          }
+          .abstract-app-video:hover {
+            color: #dda900;
+          }
         }
       }
 
@@ -138,8 +218,43 @@ export default {
           width: 100%;
 
           h1 {
-            padding-bottom: 15rem;
+            padding-bottom: 4rem;
+            line-height: 5rem;
+            font-size: 2.4em;
             text-align: left;
+          }
+          .abstract-app-btns {
+            padding-left: 8rem;
+            p {
+              padding-top: 0.5rem;
+              padding-bottom: 0.5rem;
+              font-size: 1.4rem;
+              text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+              span {
+                padding: 0.2rem 0.4rem;
+                background-color: #dda900;
+                text-shadow: none;
+              }
+            }
+            .abstract-app-btn {
+              margin-right: 0;
+              padding: 1rem 1.5rem;
+              font-size: 1.4rem;
+              background-color: transparent;
+              color: #ffffff;
+            }
+            .abstract-app-video {
+              font-size: 1.4rem;
+              color: #ffffff;
+              text-decoration: underline;
+              i {
+                font-size: 2.4rem;
+              }
+            }
+            .abstract-app-video:hover {
+              color: #dda900;
+            }
           }
         }
 
@@ -150,31 +265,6 @@ export default {
     }
   }
 }
-
-@media only screen and (min-width: 48em) and (max-width: 75em) {
-  .home-section-1 {
-    background-size: auto 100%;
-    border-bottom: 0.6rem solid #f7cb3b;
-
-    .wrap {
-      .content {
-        .abstract {
-          width: 100%;
-
-          h1 {
-            padding-bottom: 15rem;
-            text-align: left;
-          }
-        }
-
-        .modules-shortcut {
-          display: none;
-        }
-      }
-    }
-  }
-}
-
 @media only screen and (max-width: 48em) {
   .home-section-1 {
     background-size: auto 100%;
@@ -186,12 +276,43 @@ export default {
           width: 100%;
 
           h1 {
-            padding: 0 1.5rem;
-            padding-bottom: 6rem;
-
-            line-height: 5rem;
-            font-size: 2.8em;
+            padding: 0 0.5rem;
+            line-height: 4rem;
+            font-size: 1.8em;
             text-align: left;
+          }
+          .abstract-app-btns {
+            padding-left: 1.5rem;
+            p {
+              padding-top: 0.5rem;
+              padding-bottom: 0.5rem;
+              font-size: 1.2rem;
+              text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+              span {
+                padding: 0.2rem 0.4rem;
+                background-color: #dda900;
+                text-shadow: none;
+              }
+            }
+            .abstract-app-btn {
+              margin-right: 0;
+              padding: 1rem 1.5rem;
+              font-size: 1.2rem;
+              background-color: transparent;
+              color: #ffffff;
+            }
+            .abstract-app-video {
+              font-size: 1.2rem;
+              color: #ffffff;
+              text-decoration: underline;
+              i {
+                font-size: 1.2rem;
+              }
+            }
+            .abstract-app-video:hover {
+              color: #dda900;
+            }
           }
         }
 

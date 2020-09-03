@@ -46,7 +46,7 @@ export default {
     width: 100%;
     height: 400px;
     background-position: center;
-    background-size: auto 100%;
+    background-size:  100% auto;
   }
 }
 </style>

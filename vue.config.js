@@ -1,24 +1,47 @@
-const CompressionWebpackPlugin = require("compression-webpack-plugin");
+/*
+ * @Author: Jialin SUN
+ * @Date: 2020-05-23 12:14:12
+ * @LastEditors: Jialin SUN
+ * @LastEditTime: 2020-05-23 14:43:17
+ * @Description: file content
+ */
+const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
-  configureWebpack: config => {
-    if (process.env.NODE_ENV === "production") {
-      // 去掉 console.log
-      {
-        config.optimization.minimizer[0].options.terserOptions.compress.drop_console = true;
-      }
-      //GZIP压缩return
-      {
-        plugins: [
-          new CompressionWebpackPlugin({
-            test: /\.(js|css)(\?.*)?$/i,
-            //需要压缩的文件正则threshold: 10240,
-            //文件大小大于这个值时启用压缩
-            deleteOriginalAssets: false
-            //压缩后保留原文件
-          })
-        ];
-      }
-    }
-  }
+  // productionSourceMap: false,
+  chainWebpack: (config) => {
+    const imagesRule = config.module.rule("images");
+    imagesRule
+      .use("url-loader")
+      .loader("url-loader")
+      .tap((options) => Object.assign(options, { limit: 600 }));
+  },
+  configureWebpack: {
+    optimization: {
+      splitChunks: {
+        minSize: 10000,
+        maxSize: 250000,
+      },
+      minimize: true,
+      minimizer: [
+        new TerserPlugin({
+          terserOptions: {
+            ecma: undefined,
+            warnings: false,
+            parse: {},
+            compress: { drop_console: true },
+            mangle: true, // Note `mangle.properties` is `false` by default.
+            module: false,
+            output: { comments: false },
+            toplevel: false,
+            nameCache: null,
+            ie8: false,
+            keep_classnames: undefined,
+            keep_fnames: false,
+            safari10: false,
+          },
+        }),
+      ],
+    },
+  },
 };

@@ -148,7 +148,7 @@ export default {
   
 
   .media-others {
-    width: 670px;
+    width: 240px !important;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -209,11 +209,13 @@ export default {
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
+
       .media-item {
         box-sizing: border-box;
         width: 46%;
         display: inline-block;
       }
+
       .media-item:first-child {
         display: block;
       }

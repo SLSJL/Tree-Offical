@@ -2,14 +2,14 @@
   <div class="res-news-item" @click="forward">
     <div class="res-news-item__datetime">
       <p class="res-news-item__daymonth">
-        <span>{{news.date | day}}</span>
-        <span>{{news.date | month}}</span>
+        <span>{{ news.date | day }}</span>
+        <span>{{ news.date | month }}</span>
       </p>
-      <p class="res-news-item__year">{{news.date | year}}</p>
+      <p class="res-news-item__year">{{ news.date | year }}</p>
     </div>
     <div class="res-news-item__title">
-      <h2 :title="news.title">{{news.title | title}}</h2>
-      <p>{{news.sourceEng}}</p>
+      <h2 :title="news.title">{{ news.title | title }}</h2>
+      <p>{{ news.sourceEng }}</p>
     </div>
   </div>
 </template>
@@ -18,8 +18,8 @@ export default {
   name: "resouce-newws-item",
   props: {
     news: {
-      type: Object
-    }
+      type: Object,
+    },
   },
   filters: {
     year(date) {
@@ -32,20 +32,17 @@ export default {
       return date.split("-")[0];
     },
     title(val) {
-      return val.length > 19 ? val.substr(0, 18) + "..." : val;
-    }
+      let reg = new RegExp("[\\u4E00-\\u9FFF]", "g");
+      let n = reg.test(val) ? 19 : 36;
+      return val.length > n ? val.substr(0, n - 1) + "..." : val;
+    },
   },
   methods: {
     forward() {
-       let url = this.news.fileName ? this.news.fileName : this.news.address;
-      window.open(
-        url.indexOf("http") > -1
-          ? url
-          :  this.$utils.tool.getFileUrl() + this.news.fileName,
-        "_blank"
-      );
-    }
-  }
+      let url = this.news.fileName ? this.news.fileName : this.news.address;
+      window.open(url.indexOf("http") > -1 ? url : this.$utils.tool.getFileUrl() + this.news.fileName, "_blank");
+    },
+  },
 };
 </script>
 <style lang="less" scoped>

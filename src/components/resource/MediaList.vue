@@ -1,23 +1,18 @@
 <template>
   <div :class="['res-media-list']">
     <ul>
-      <li
-        v-for="(item, idx) in dataset"
-        :key="idx"
-        @mouseover="activeIndex = idx"
-        @click="openPDF(item.filePath)"
-      >
+      <li v-for="(item, idx) in dataset" :key="idx" @mouseover="activeIndex = idx" @click="openPDF(item.filePath)">
         <div class="time">
           <p class="day-month">
-            <span>{{item.date[0]}}</span>
-            <span>{{item.date[1]}}</span>
+            <span>{{ item.date[0] }}</span>
+            <span>{{ item.date[1] }}</span>
           </p>
-          <p class="year">{{item.date[2]}}</p>
+          <p class="year">{{ item.date[2] }}</p>
         </div>
 
         <div class="title">
           <div class="text-wrap">
-            <h4 :title="item.title">{{item.title | titleFltr}}</h4>
+            <h4 :title="item.title">{{ item.title | titleFltr }}</h4>
           </div>
         </div>
       </li>
@@ -26,9 +21,9 @@
 </template>
 <script>
 export default {
-  name: "MediaItem",
+  name: "media-list",
   props: {
-    dataset: { type: Array }
+    dataset: { type: Array },
   },
   data() {
     return {};
@@ -36,18 +31,13 @@ export default {
   filters: {
     titleFltr(val) {
       return val.length > 20 ? val.substr(0, 19) + "..." : val;
-    }
+    },
   },
   methods: {
     openPDF(filepath) {
-      window.open(
-        filepath.indexOf("http") > -1
-          ? filepath
-          : this.$utils.tool.getFileUrl() + filepath,
-        "_blank"
-      );
-    }
-  }
+      window.open(filepath.indexOf("http") > -1 ? filepath : this.$utils.tool.getFileUrl() + filepath, "_blank");
+    },
+  },
 };
 </script>
 <style lang="less" scoped>

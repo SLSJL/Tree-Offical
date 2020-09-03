@@ -1,8 +1,7 @@
-
 <template>
   <div class="container media-coverage">
     <div class="caption">
-      <span>{{$t("message.resource.video.caption")}}</span>
+      <span>{{ $t("message.resource.video.caption") }}</span>
       <!-- <router-link to="/resource/mediamore">
         <a class="media-more">> more</a>
       </router-link> -->
@@ -10,7 +9,7 @@
     <div class="media-group">
       <NewsItem
         class="media-list-item"
-        v-for="(item,idx) in $t('message.resource.video.list')"
+        v-for="(item, idx) in $t('message.resource.video.list')"
         :key="idx"
         :news="item"
       ></NewsItem>
@@ -22,8 +21,8 @@ import NewsItem from "./../../components/resource/NewsItem";
 
 export default {
   components: {
-    NewsItem
-  }
+    NewsItem,
+  },
 };
 </script>
 <style lang="less" scoped>
