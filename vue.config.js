@@ -1,10 +1,4 @@
-/*
- * @Author: Jialin SUN
- * @Date: 2020-05-23 12:14:12
- * @LastEditors: Jialin SUN
- * @LastEditTime: 2020-05-23 14:43:17
- * @Description: file content
- */
+
 const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {

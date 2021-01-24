@@ -53,8 +53,19 @@
         <img :src="require('./../../assets/images/aboutUs/leisure.png')" alt />
       </a>
 
-      <a class="large" href="https://www.foe.org.hk/default.aspx" target="blank">
+      <a class="large" href="https://www.emsd.gov.hk/en/home/index.html" target="blank">
         <img :src="require('./../../assets/images/home/p6_5.png')" alt />
+      </a>
+
+      <a class="large" href="http://www.hkic.edu.hk/chi/home" target="blank">
+        <img :src="require('./../../assets/images/aboutUs/HKIC.jpg')" alt />
+      </a>
+      
+      <a class="large" href="https://www.foe.org.hk/default.aspx" target="blank">
+        <img :src="require('./../../assets/images/aboutUs/EMSD.png')" alt />
+      </a>
+      <a class="large" href="https://www.housingauthority.gov.hk/tc/index.html" target="blank">
+        <img :src="require('./../../assets/images/aboutUs/HD.png')" alt />
       </a>
     </div>
   </div>
