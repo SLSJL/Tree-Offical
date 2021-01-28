@@ -2,7 +2,7 @@
 const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
-  publicPath:"website",
+  // publicPath:"website",
   // productionSourceMap: false,
   chainWebpack: (config) => {
     const imagesRule = config.module.rule("images");
