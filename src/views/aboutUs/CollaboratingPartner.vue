@@ -40,6 +40,17 @@
       <a href="https://www.afcd.gov.hk/tc_chi/index.html" target="blank">
         <img :src="require('./../../assets/images/aboutUs/Agriculture.png')" alt />
       </a>
+
+            <a href="http://www.hkic.edu.hk/chi/home" target="blank">
+        <img :src="require('./../../assets/images/aboutUs/HKIC.jpg')" alt />
+      </a>
+      
+      <a  href="https://www.foe.org.hk/default.aspx" target="blank">
+        <img :src="require('./../../assets/images/aboutUs/EMSD.png')" alt />
+      </a>
+      <a  href="https://www.housingauthority.gov.hk/tc/index.html" target="blank">
+        <img :src="require('./../../assets/images/aboutUs/HD.png')" alt />
+      </a>
     </div>
   </div>
 </template>
