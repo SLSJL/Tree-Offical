@@ -9,7 +9,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "element-ui": "^2.13.2",
     "esri-leaflet": "^2.4.1",
     "esri-leaflet-renderers": "^2.0.6",
