@@ -3,6 +3,12 @@ export default {
     caption: "新闻公报",
     list: [
       {
+        title: "理大于日内瓦国际发明展夺得六个奖项",
+        address: "https://www.polyu.edu.hk/sc/media/media-releases/2021/0323_polyu-wins-six-prizes-at-geneva-inventions-expo/",
+        date: "23-Mar-2021",
+        isNew: true,
+      },
+      {
         title: "理大运用智能传感技术于城市树木管理",
         address: "https://www.polyu.edu.hk/web/sc/media/media_releases/index_id_6551.html",
         date: "4-Jun-2018",

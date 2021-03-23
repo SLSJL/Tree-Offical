@@ -3,6 +3,12 @@ export default {
     caption: "新聞公報",
     list: [
       {
+        title: "理大於日內瓦國際發明展奪得六個獎項",
+        address: "https://www.polyu.edu.hk/tc/media/media-releases/2021/0323_polyu-wins-six-prizes-at-geneva-inventions-expo/",
+        date: "23-Mar-2021",
+        isNew: true,
+      },
+      {
         title: "PolyU to apply smart sensing technology in urban tree management",
         address: "https://www.polyu.edu.hk/web/en/media/media_releases/index_id_6551.html",
         date: "4-Jun-2018",
