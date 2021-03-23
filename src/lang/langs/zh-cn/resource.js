@@ -15,6 +15,14 @@ export default {
     list: {
       m2019: [
         {
+          date: "23-Mar-2021",
+          sourceEng: "東網",
+          SourceCn: "東網",
+          isNew: true,
+          title: "理大日內瓦國際發明展奪3金3銀　2項發明已商品化",
+          address: "https://hk.on.cc/hk/bkn/cnt/news/20210323/bkn-20210323150025144-0323_00822_001_cn.html",
+        },
+        {
           date: "4-Jun-2019",
           sourceEng: "Commercial Radio Hong Kong",
           SourceCn: "香港商業電台",
